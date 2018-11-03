@@ -1,0 +1,18 @@
+
+{% for portfolio in site.portfolio %}
+  <h2>
+    {{ portfolio.title }}
+  </h2>
+  portfolio.url
+{% endfor %}
+
+{% for article in site.portfolio %}
+  <dt><time>{{ post.date | date: "%d %b %Y" }}</time></dt>
+  <dd>
+    {% if article.external_url %}
+      [{{ article.title }}]({{ article.external_url }})
+    {% else %}
+      [{{ article.title }}]({{ article.url }})
+    {% endif %}
+  </dd>
+{% endfor %}
