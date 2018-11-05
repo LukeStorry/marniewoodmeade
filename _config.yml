@@ -1,11 +1,11 @@
 #Setup
 title: Marnie Woodmeade
-tagline: Social Policy student at the University of Bristol.
+description: Social Policy student at the University of Bristol.
 profilepic: /assets/img/profilepic.jpg
 
 # URL settings
-baseurl: ""
-url: ""
+baseurl: "/marniewoodmeade"
+url: "https://lukestorry.co.uk"
 permalink: /portfolio/:title
 
 # Build settings
@@ -14,4 +14,5 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-redirect-from
 
-exclude: readme.md
+exclude:
+  - README.md
