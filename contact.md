@@ -1,4 +1,8 @@
 ---
 layout: default
-path: /contact
+title: Contact
 ---
+
+This is how you contact me:
+
+(add stuff here)

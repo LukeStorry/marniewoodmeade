@@ -1,20 +1,9 @@
 #Setup
 title: Marnie Woodmeade
 tagline: Social Policy student at the University of Bristol.
-description: My Blog, Portfolio and list of links
-baseurl: "" # the subpath of your site, e.g. /blog
+profilepic: /assets/img/profilepic.jpg
 
-# About/contact
-author:
-  name: Luke Storry
-  url: "https://lukestorry.co.uk"
-  email: Luke@LukeStorry.co.uk
-
-# Build settings
+permalink: /portfolio/:title
 theme: jekyll-theme-minimal
-markdown: kramdown
-# exclude: ["README.md"]
-collections:
-  portfolio:
-    # output: true
-    permalink: /portfolio/:path/
+plugins:
+  - jekyll-redirect-from
