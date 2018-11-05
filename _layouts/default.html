@@ -16,6 +16,7 @@
           <img src="{{ site.profilepic | relative_url }}" alt="Profile Pic" />
         {% endif %}
 
+        <br><br>
         <p>{{ site.description }}</p>
 
         <h2><a href="{{ "/" | relative_url }}">Home</a></h2>
@@ -25,8 +26,10 @@
       </header>
       <br><br>
       <section>
+        <br>
         <h1>{{ page.title }}</h1>
         {{ content }}
+        <br>
       </section>
 
       <br><br><br><br>
@@ -35,7 +38,5 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="{{ site.baseurl }}{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-
   </body>
 </html>
