@@ -3,6 +3,7 @@ title: Marnie Woodmeade
 tagline: Social Policy student at the University of Bristol.
 profilepic: /assets/img/profilepic.jpg
 
+baseurl: ""
 permalink: /portfolio/:title
 theme: jekyll-theme-minimal
 plugins:
