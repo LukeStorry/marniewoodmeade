@@ -4,8 +4,8 @@ description: Social Policy student at the University of Bristol.
 profilepic: /assets/img/profilepic.jpg
 
 # URL settings
-baseurl: "/marniewoodmeade"
-url: "https://lukestorry.co.uk"
+baseurl: ""
+url: "https://marniewoodmeade.co.uk"
 permalink: /portfolio/:title
 
 # Build settings
