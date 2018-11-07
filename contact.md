@@ -3,6 +3,6 @@ layout: default
 title: Contact
 ---
 
-This is how you contact me:
+Email: marniewoodmeade@outlook.com
+LinkedIn: https://www.linkedin.com/in/marnie-woodmeade-053314161/
 
-(add stuff here)
