@@ -10,9 +10,7 @@ permalink: /portfolio/:title
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
 plugins:
   - jekyll-redirect-from
-
 exclude:
   - README.md

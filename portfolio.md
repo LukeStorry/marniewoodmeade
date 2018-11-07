@@ -4,10 +4,13 @@ title: Portfolio
 ---
 
 {% for post in site.posts %}
-
-  <div>
-    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-    <small>{{ post.date | date: "%-d %B %Y" }}</small>
-    <p>{{ post.description }}</p>
+  <div class="card bg-light mb-3">
+    <h3 class="card-header">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <div class="card-body">
+      <div class="card-text">{{ post.description }}</div>
+    </div>
+    <small class="text-right"> {{ post.date | date: "%-d %B %Y" }}</small>
   </div>
 {% endfor %}
