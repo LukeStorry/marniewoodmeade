@@ -1,7 +1,13 @@
-#Setup
+# Site settings
 title: Marnie Woodmeade
-description: BSc Social Policy student at the University of Bristol | Evaluation Lead at Bristol Festivals.
-profilepic: /assets/img/profilepic.jpg
+description: |
+  BSc Social Policy student at the University of Bristol<br>
+  Evaluation Lead at Bristol Festivals.
+profilepic: /assets/profilepic.jpg
+
+# Font settings
+headerfont: Pacifico
+textfont: Indie Flower
 
 # URL settings
 baseurl: ""
