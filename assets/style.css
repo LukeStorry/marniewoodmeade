@@ -6,26 +6,36 @@ html {
   min-height: 100%;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: '{{ site.headerfont }}', sans-serif;
-  text-shadow: 2px 2px 2px #ccc;
+}
+
+h1, h2, h3 {
+  text-shadow: 3px 3px 3px #ddd;
 }
 
 body {
   font-family: '{{ site.textfont }}', sans-serif;
+  font-size: large;
   margin-bottom: 42px;
 }
 
 img {
   border-radius: 50%;
-  max-width: 50%;
+  width: 50%;
+  max-width: 15rem
 }
 
 @media (min-width: 768px) {
-    .left-stick {
-        position: fixed;
-        top: 40px;
-    }
+  .left-stick {
+    position: fixed;
+  }
+}
+
+@media (min-height: 60rem) {
+  .left-stick {
+    top: 50px;
+  }
 }
 
 .footer {

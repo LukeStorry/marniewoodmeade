@@ -2,10 +2,12 @@
 layout: default
 title: Contact
 ---
+**Email**
+
+[marniewoodmeade@outlook.com](mailto:marniewoodmeade@outlook.com?Subject=Hello)
 
 <br>
-<br>
 
-Email Me: [marniewoodmeade@outlook.com](mailto:marniewoodmeade@outlook.com?Subject=Hello)
+**LinkedIn**
 
-LinkedIn: [Linkedin.com/in/marnie-woodmeade-053314161](https://www.linkedin.com/in/marnie-woodmeade-053314161/)
+[linkedin.com/in/marnie-woodmeade-053314161](https://www.linkedin.com/in/marnie-woodmeade-053314161/)

@@ -6,8 +6,8 @@ description: |
 profilepic: /assets/profilepic.jpg
 
 # Font settings
-headerfont: Pacifico
-textfont: Indie Flower
+headerfont: Libre Baskerville
+textfont: Lato
 
 # URL settings
 baseurl: ""

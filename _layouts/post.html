@@ -4,8 +4,6 @@ layout: default
 
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <br><hr><br>
+<div style="font-size: medium">
 {{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+</div>
