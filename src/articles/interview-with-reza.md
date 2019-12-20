@@ -1,0 +1,8 @@
+---
+layout: article
+display_order: 2
+title: Photojournalist and Humanitarian - An Interview with Reza
+description: As part of the work I did for Frontier, I got the opportunity to talk to Reza about his life, successes and the importance of giving refugees the ability to tell their own story.
+date: 2018-05-10
+---
+Originally written for [Frontier](https://frontier.ac.uk/blog/2018/08/23/into-the-wild-meets---reza-deghati)
