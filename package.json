@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "author": "Luke Storry",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
