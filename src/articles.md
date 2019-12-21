@@ -11,7 +11,7 @@ in_navbar: 2
         <a href="{{ post.url }}">{{ post.data.title }}</a>
         </span>
     <p>{{ post.data.description }}</p>
-    <p class="right-align"> {{ post.data.date | date: "%dth %B %Y" }}</p>
+    <p class="right-align"> {{ post.data.date | date: "%d %B %Y" }}</p>
   </div>
   </div>
 {%- endfor -%}
