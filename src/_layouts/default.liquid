@@ -1,6 +1,7 @@
 ---
 tagline: International Development Masters student at the University of Bristol.
 description: Welcome to my homepage, blog & portfolio.
+
 headerfont: Anton
 textfont: Poppins
 ---
@@ -13,51 +14,53 @@ textfont: Poppins
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="{{ tagline }} {{ description }}">
-  <link rel="icon" href="{{ "/assets/favicon.ico " | url }}" type="image/x-icon" />
+  <link rel="icon" href="{{ " /assets/favicon.ico " | url }}" type="image/x-icon" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ headerfont | replace: ' ', '+' }}|{{ textfont | replace: ' ', '+' }}&display=swap">
-  <link rel="stylesheet" href="{{ "/assets/style.css " | url }}">
+  <link rel="stylesheet" href="{{ " /assets/style.css " | url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
   <title>Marnie Woodmeade - {{title}}</title>
 
   <style>
-h1, h2, h3, h4, h5, h6 { font-family: {{ headerfont }} }
-p { font-family: {{ textfont }} }
-</style>
+     h1, h2, h3, h4, h5, h6 { font-family: {{ headerfont }} }
+     p { font-family: {{ textfont }} }
+   </style>
 
 </head>
 
 <body>
-  <img class="responsive-img" src="/assets/bannerpic.jpg" alt="Banner Pic" />
-  <div class="section no-pad-top center">
-    <h1>Marnie Woodmeade</h1>
-    <h5>{{ tagline }}</h5>
-  </div>
+  <div class="container">
+    <div class="section no-pad-top center">
+      <img class="responsive-img" src="/assets/bannerpic.jpg" alt="Banner Pic" />
+      <h1>Marnie Woodmeade</h1>
+      <h5>{{ tagline }}</h5>
+    </div>
 
-  <nav class="cyan lighten-2">
-    <div class="nav-wrapper">
-      <ul style="display: flex; justify-content: center;">
-        {% for link in collections.navbar_links %}
-          {% if link.url != '/' and page.url contains link.url %}
+    <nav class="cyan lighten-2">
+      <div class="nav-wrapper">
+        <ul style="display: flex; justify-content: center;">
+          {% for link in collections.navbar_links %} {% if link.url != '/' and page.url contains link.url %}
           <li class="active">
             {% else %}
-          <li>
-            {% endif %}
-            <a href="{{ link.url | url }}" style="font-size: 1.7rem">
+            <li>
+              {% endif %}
+              <a href="{{ link.url | url }}" style="font-size: 1.7rem">
               {{ link.data.title | strip }}
             </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </nav>
+            </li>
+            {% endfor %}
+        </ul>
+      </div>
+    </nav>
 
-  <div class="container section">
-    {{ content }}
+    <div class="container section">
+      {{ content }}
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
+
 </html>
