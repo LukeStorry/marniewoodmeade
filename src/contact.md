@@ -4,7 +4,7 @@ title: Contact
 in_navbar: 5
 ---
 
-<div class="row" style="height:500px">
+<div class="row">
 
 <div class="col s12 m8 l5 offset-m2 offset-l1">
 <div class="card-panel center-align">
