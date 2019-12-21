@@ -3,6 +3,7 @@ layout: default
 title: Articles
 in_navbar: 2
 ---
+
 <div class="row">
 {%- for post in collections.articles -%}
  <div class="card col l8 s12 offset-l2">
@@ -16,5 +17,3 @@ in_navbar: 2
   </div>
 {%- endfor -%}
 </div>
-
-<!-- btn-floating halfway-fab waves-effect waves-light  -->
