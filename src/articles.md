@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Articles
+in_navbar: 2
 ---
 
 {%- for post in collections.articles -%}

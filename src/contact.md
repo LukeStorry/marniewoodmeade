@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+in_navbar: 5
 ---
 
 **Email**

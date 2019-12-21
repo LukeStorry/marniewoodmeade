@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<small>
+<h3>{{ title }}</h3>
+<p class="right-align">
     {{ page.date | date: "%dth %B %Y" }}
-</small>
+</p>
 
-<div>
+<div class="container">
 {{content}}
 </div>

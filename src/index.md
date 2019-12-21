@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+in_navbar: 1
 ---
 Welcome to my website! 
 
