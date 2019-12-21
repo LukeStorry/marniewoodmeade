@@ -7,11 +7,9 @@ textfont: Poppins
 ---
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="{{ tagline }} {{ description }}">
   <link rel="icon" href="{{ " /assets/favicon.ico " | url }}" type="image/x-icon" />
@@ -30,8 +28,8 @@ textfont: Poppins
 
 </head>
 
-<body class="blue lighten-5">
-  <img src="/assets/bannerpic.jpg" alt="Banner Pic" class="responsive-img center-block" style="max-height: 400px"/>
+<body>
+  <img src="/assets/bannerpic.jpg" alt="Banner Pic" class="responsive-img center-block" style="max-height: 400px" />
   <div class="section no-pad-top center">
     <h1>Marnie Woodmeade</h1>
     <h5 class="flow-text">{{ tagline }}</h5>
@@ -45,7 +43,7 @@ textfont: Poppins
           {% else %}
           <li>
             {% endif %}
-              <a href="{{ link.url | url }}" class="flow-text">
+            <a href="{{ link.url | url }}" class="flow-text">
                 {{ link.data.title | strip }}
               </a>
           </li>
@@ -54,10 +52,13 @@ textfont: Poppins
     </div>
   </nav>
 
-  <div class="container section">
-    {{ content }}
+  <div class="blue lighten-5">
+    <div class="container section">
+      {{ content }}
+    </div>
   </div>
-  </div <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
 
