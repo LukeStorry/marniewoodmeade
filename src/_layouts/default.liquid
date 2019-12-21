@@ -22,44 +22,41 @@ textfont: Poppins
 
   <title>Marnie Woodmeade - {{title}}</title>
 
-  <style>
+  <!-- <style>
      h1, h2, h3, h4, h5, h6 { font-family: {{ headerfont }} }
      p { font-family: {{ textfont }} }
-   </style>
+   </style> -->
 
 </head>
 
-<body>
-  <div class="container">
-    <div class="section no-pad-top center">
-      <img class="responsive-img" src="/assets/bannerpic.jpg" alt="Banner Pic" />
-      <h1>Marnie Woodmeade</h1>
-      <h5>{{ tagline }}</h5>
-    </div>
-
-    <nav class="cyan lighten-2">
-      <div class="nav-wrapper">
-        <ul style="display: flex; justify-content: center;">
-          {% for link in collections.navbar_links %} {% if link.url != '/' and page.url contains link.url %}
-          <li class="active">
-            {% else %}
-            <li>
-              {% endif %}
-              <a href="{{ link.url | url }}" style="font-size: 1.7rem">
-              {{ link.data.title | strip }}
-            </a>
-            </li>
-            {% endfor %}
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container section">
-      {{ content }}
-    </div>
+<body onLoad="window.scroll(00, 200)">
+  <img class="responsive-img" src="/assets/bannerpic.jpg" alt="Banner Pic" />
+  <div class="section no-pad-top center">
+    <h1>Marnie Woodmeade</h1>
+    <h5>{{ tagline }}</h5>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <nav class="cyan lighten-2">
+    <div class="nav-wrapper">
+      <ul style="display: flex; justify-content: center;">
+        {% for link in collections.navbar_links %} {% if link.url != '/' and page.url contains link.url %}
+        <li class="active">
+          {% else %}
+          <li>
+            {% endif %}
+            <a href="{{ link.url | url }}" style="font-size: 1.7rem">
+              {{ link.data.title | strip }}
+            </a>
+          </li>
+          {% endfor %}
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container section">
+    {{ content }}
+  </div>
+  </div <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
 
