@@ -64,7 +64,7 @@ main {
   box-shadow: 1px 1px 5px lightgrey;
 }
 
-p {
+article p {
   font-size: 130%;
 }
 
