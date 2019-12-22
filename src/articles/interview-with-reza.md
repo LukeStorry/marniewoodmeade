@@ -8,14 +8,14 @@ date: 2018-08-23
 
 _Originally written for [Frontier](https://frontier.ac.uk/blog/2018/08/23/into-the-wild-meets---reza-deghati)_
 
-<img id="ctl00_ContentPlaceHolder1_imgBlog" alt="imgBlog" src="https://frontier.ac.uk/blog/HeaderImages/2018_08_28_09_54_32_731.jpg" class="responsive-img"><br>
+<img id="ctl00_ContentPlaceHolder1_imgBlog" alt="imgBlog" src="https://frontier.ac.uk/blog/HeaderImages/2018_08_28_09_54_32_731.jpg" class="img-fluid"><br>
 
 Photo Credit: <u><a href="https://commons.wikimedia.org/wiki/File:Reza_Deghati_(1).jpg" target="_blank">Wikipedia Commons | Ministerio de Cultura de la Nación Argentina</a></u>
 
 
 ---
 
-##### This week Into the Wild meets REZA, world-renowned photojournalist and humanitarian. His photography has taken him all over the world and his work has been featured in Time magazine, Natural Geographic and Newsweek to name a few!
+**This week Into the Wild meets REZA, world-renowned photojournalist and humanitarian. His photography has taken him all over the world and his work has been featured in Time magazine, Natural Geographic and Newsweek to name a few!**
 
 Alongside his extraordinary photography career, REZA is also a committed volunteer setting up NGOs in Afghanistan, Iraq and Kurdistan to teach those affected by war and conflict to tell their own stories using photography and journalism. He took time out of his busy schedule to tell us more about his journey with photojournalism and volunteering. A huge thank you to Reza for agreeing to an interview!
 

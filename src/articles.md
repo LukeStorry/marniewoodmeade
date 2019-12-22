@@ -5,13 +5,11 @@ in_navbar: 2
 ---
 
 <div class="row">
-  {%- for post in collections.articles -%}
-    <div class="card col l8 s12 offset-l2">
-      <div class="card-content">
-        <h5><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
-        <p>{{ post.data.description }}</p>
-        <p class="right-align"> {{ post.data.date | date: "%d %B %Y" }}</p>
-      </div>
-    </div>
-  {%- endfor -%}
+{%- for post in collections.articles -%}
+  <div class="card eight columns offset-by-two">
+    <h5 class="center-text"><a href="{{ post.url }}">{{ post.data.title }}</a></h4>
+    <p>{{ post.data.description }}</p>
+    <div class="date"> {{ post.data.date | date: "%d %B %Y" }}</div>
+  </div>
+{%- endfor -%}
 </div>

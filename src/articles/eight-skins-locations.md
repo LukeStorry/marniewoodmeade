@@ -16,7 +16,7 @@ Here are a few of the best.
 
 #### Vauxhall Bridge
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1.jpg" alt="" width="1024" height="809" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1.jpg 1024w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1-300x237.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1-768x607.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1.jpg" alt="" width="1024" height="809" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1.jpg 1024w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1-300x237.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-1-768x607.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px">
 
 Taking it right back to the beginning, with Tony storming over the bridge like the cool cat he was (sort of) and arranging drug fueled mayhem.
 
@@ -24,7 +24,7 @@ In reality of course it’s actually a pretty grim bridge where the feeling you 
 
 #### Thekla
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-2.jpg" alt="" width="720" height="960" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-2.jpg 720w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-2-225x300.jpg 225w" sizes="(max-width: 720px) 100vw, 720px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-2.jpg" alt="" width="720" height="960" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-2.jpg 720w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-2-225x300.jpg 225w" sizes="(max-width: 720px) 100vw, 720px">
 
 
 Bristol’s favourite club on a boat appears in season 3 with everyone’s favourite psycho, Cook.
@@ -33,7 +33,7 @@ It had been rented out to a gangster for a private party and of course ended in 
 
 #### Cabot Tower
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3.jpg" alt="" width="960" height="720" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3.jpg 960w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3-300x225.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3-768x576.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3.jpg" alt="" width="960" height="720" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3.jpg 960w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3-300x225.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-3-768x576.jpg 768w" sizes="(max-width: 960px) 100vw, 960px">
 
 Everyone’s heart broke just that little bit when Cassie and Sid sat on that fabled bench, over a beautiful Bristol sunset in the very same location that Cassie had tried to take her own life.
 
@@ -42,7 +42,7 @@ But in 2017 Bristol it is never sunny so the view is pretty shocking and we had 
 #### Abbot’s Pool
 
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4.jpg" alt="" width="1024" height="683" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4.jpg 1024w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4-300x200.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4.jpg" alt="" width="1024" height="683" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4.jpg 1024w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4-300x200.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-4-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px">
 
 The scene of Skins’ first lesbian couples’ romantic endeavour.
 
@@ -50,7 +50,7 @@ Its green leafy setting and lack of urban twats makes this the perfect place for
 
 #### Pero’s Bridge
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-5.jpg" alt="" width="500" height="334" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-5.jpg 500w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-5-300x200.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-5.jpg" alt="" width="500" height="334" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-5.jpg 500w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-5-300x200.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
 
 Pero’s bridge made a few appearances during the filming of Skins.
 
@@ -61,7 +61,7 @@ Personally I think the trivialisation of Bristol’s quite serious homeless prob
 
 #### The stairs by St. Nicks market
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault.jpg" alt="" width="1280" height="720" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault.jpg 1280w, https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault-300x169.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault-768x432.jpg 768w, https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault-1024x576.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault.jpg" alt="" width="1280" height="720" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault.jpg 1280w, https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault-300x169.jpg 300w, https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault-768x432.jpg 768w, https://media.thetab.com/blogs.dir/5/files/2017/02/maxresdefault-1024x576.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px">
 
 You remember the scene where Sid and Tony steal Chris’ coffin and precede to have a car chase with a hearse?
 
@@ -72,7 +72,7 @@ The steps next to St Nicks where the scene of that heroic moment and are easy to
 #### College Green
 
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-6.jpg" alt="" width="500" height="375" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-6.jpg 500w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-6-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-6.jpg" alt="" width="500" height="375" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-6.jpg 500w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-6-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px">
 
 Perhaps the most obvious of all the Bristol Skins locations is College Green.
 
@@ -82,7 +82,7 @@ Of course Bristol students don’t even walk on the grass because it’s gross, 
 
 #### Park Street
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-7.jpg" alt="" width="555" height="370" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-7.jpg 555w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-7-300x200.jpg 300w" sizes="(max-width: 555px) 100vw, 555px">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-7.jpg" alt="" width="555" height="370" srcset="https://media.thetab.com/blogs.dir/5/files/2017/02/skins-7.jpg 555w, https://media.thetab.com/blogs.dir/5/files/2017/02/skins-7-300x200.jpg 300w" sizes="(max-width: 555px) 100vw, 555px">
 
 Oh Freddie, the day you skateboarded over the roadworks and into our hearts was a beauty.
 

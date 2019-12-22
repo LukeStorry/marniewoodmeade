@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
+<article>
 <div class="card">
-  <div class="card-content">
 
-    <h3 class="center">{{ title }}</h3>
-    <p class="right-align">
+    <h3 class="center-text">{{ title }}</h3>
+    <p class="date">
       {{ page.date | date: "%d %B %Y" }}
     </p>
 
-    <div class="container">
+    <div class="row">
+    <div class="eight columns offset-by-two">
       {{content}}
+    </div>
     </div>
 
   </div>
 </div>
+</article>

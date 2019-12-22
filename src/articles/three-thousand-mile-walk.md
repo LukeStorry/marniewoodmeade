@@ -10,7 +10,7 @@ Jake Tyler has just completed the first leg of a 3000 mile walk around all of Gr
 
 He’s spent time in Bristol, turning up at our door with a backpack the size of a small person and stories you could listen to for days, our humble couch turned into the comfiest bed he’d stayed in for a while (camping is hard).
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2016/11/14520596-641739699334328-1545716670675410305-n.jpg" alt="Photo of jake">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2016/11/14520596-641739699334328-1545716670675410305-n.jpg" alt="Photo of jake">
 
 We interviewed Jake to learn more about his mission and to give his cause some well deserved attention.
 
@@ -21,7 +21,7 @@ We interviewed Jake to learn more about his mission and to give his cause some w
 ###### How close are you to finishing?
 “Well I’m just under half way done. It s really weird I can’t look at a map and see how far I’ve come. People keep saying, ‘oh wow you’ve walked so far’  but I cant think that yet because there’s so much left to do. It’s good really because that’s what’s keeping me inspired to keep going.”
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2016/11/14642141-653296711511960-6532840517765886963-n.jpg" alt="cliff photo">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2016/11/14642141-653296711511960-6532840517765886963-n.jpg" alt="cliff photo">
 
 ###### So what actually inspired you to do it?
 “Well I’ve lived with anxiety and depression most of my adult life but I had a burnout or a meltdown, whatever you want to call it when I was running a bar in Shoreditch. Lighting the candle at both ends in terms of lifestyle, mismanaging stress, and self-medicating badly with not proper stuff. It got to a point where I was scared for my own life, I didn’t know what I was going to do with myself.
@@ -32,7 +32,7 @@ We interviewed Jake to learn more about his mission and to give his cause some w
 
 “So I started going for walks with the dog and stuff, and the walks just got longer and longer. I felt like I was walking it off, weird as that sounds. I’ve always wanted to set myself a really big physical challenge, so this just felt right. I’ve always admired people who did this sort of thing and wished I could, but then I realised the only difference between them and me was that they’ve done it. I’m going to be one of those people, I wanted to inspire people.”
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2016/11/14642259-653295551512076-4996296614330641712-n.jpg" alt="mountain photo" >
+<img  src="https://media.thetab.com/blogs.dir/5/files/2016/11/14642259-653295551512076-4996296614330641712-n.jpg" alt="mountain photo" >
 
 ###### What was the thought process behind Black Dog Walks?
 “It’s a reference to Winston’s Churchill’s definition of depression the ‘black dog following you around’ and dogs go for walks so I guess the name was easy. The whole point of it is to raise money for the Mental Health Foundation who do really really important work, but the other side is to act like a campaign to get people to explore the different kinds of treatment that are available to people.
@@ -46,7 +46,7 @@ We interviewed Jake to learn more about his mission and to give his cause some w
 
 “I’m glad I ended up flying solo because if I had been with someone I wouldn’t have met the people that I’ve met. I’m getting so much better at just talking to people and it helped so much with my anxiety. There was a time when the idea of talking to people I didn’t know was just, I couldn’t do it. Now you can’t shut me up! The little victories are so important as well. Getting messages from people saying that my vlogs and stuff have helped get them out of bed, it’s just amazing.”
 
-<img class="responsive-img" src="https://media.thetab.com/blogs.dir/5/files/2016/11/14691076-653288218179476-4804525461606446808-n.jpg" alt="beach drawing photo">
+<img  src="https://media.thetab.com/blogs.dir/5/files/2016/11/14691076-653288218179476-4804525461606446808-n.jpg" alt="beach drawing photo">
 <div class="advert" id="mpu4"></div>
 
 ###### Is there a message you want to give to students who are going through depression and anxiety?

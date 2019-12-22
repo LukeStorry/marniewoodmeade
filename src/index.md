@@ -4,7 +4,7 @@ title: Home
 in_navbar: 1
 ---
 
-<div class="card-panel center-align">
+<div class="card">
 
 #### Welcome
 
@@ -20,6 +20,6 @@ If you would like to get in contact about any of my writing please don't hesitat
 <br>
 <br>
 
-<img src="/assets/bannerpic.jpg" alt="Banner Pic" class="responsive-img center-block" style="max-height: 400px" />
+<img src="/assets/beachpic.jpg" alt="Beachy Pic"/>
 
 </div>

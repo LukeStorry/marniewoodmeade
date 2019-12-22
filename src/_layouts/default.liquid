@@ -15,50 +15,37 @@ textfont: Roboto
   <link rel="icon" href="{{ " /assets/favicon.ico " | url }}" type="image/x-icon" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ headerfont | replace: ' ', '+' }}|{{ textfont | replace: ' ', '+' }}&display=swap">
-  <link rel="stylesheet" href="{{ " /assets/style.css " | url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="{{ " /assets/css/custom.css " | url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/normalize.css " | url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/skeleton.css " | url }}">
 
   <title>Marnie Woodmeade - {{title}}</title>
 
   <style>
      h1, h2, h3, h4, h5, h6 { font-family: {{ headerfont }} }
      p { font-family: {{ textfont }} }
-     @media(max-width: 480px) {h1 {font-size: 2rem;}}
    </style>
 
 </head>
+<body>
+  <div class="sticky">
+    <header>
+      <h1>Marnie Woodmeade</h1>
+      <h5>{{ tagline }}</h5>
+    </header>
 
-<body  class="blue lighten-5">
-  <div class="section center white">
-    <h1>Marnie Woodmeade</h1>
-    <h5 class="flow-text">{{ tagline }}</h5>
+    <nav>
+      {% for link in collections.navbar_links %}
+      <a href="{{ link.url | url }}" {% if page.url contains link.url and link.url !='/' or page.url=='/' and link.url=='/' %} class="active" {% endif %}>
+        <h5>  {{ link.data.title | strip }} </h5>
+      </a>
+      {% endfor %}
+    </nav>
   </div>
 
-  <nav class="blue lighten-2">
-    <div class="nav-wrapper">
-      <ul style="display: flex; justify-content: center;">
-        {% for link in collections.navbar_links %}
-          {% if link.url != '/' and page.url contains link.url %}
-            <li class="active">
-          {% else %}
-            <li>
-          {% endif %}
-          <a href="{{ link.url | url }}" class="flow-text">
-              {{ link.data.title | strip }}
-          </a>
-          </li>
-          {% endfor %}
-      </ul>
-    </div>
-  </nav>
-
-  <div>
-    <div class="container section">
-      {{ content }}
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <main class=container>
+    {{ content }}
+  </main>
 
 </body>
 
