@@ -28,20 +28,17 @@ textfont: Roboto
 
 </head>
 <body>
-  <div class="sticky">
-    <header>
-      <h1>Marnie Woodmeade</h1>
-      <h5>{{ tagline }}</h5>
-    </header>
+  
+  <h2 class="title">Marnie Woodmeade</h2>
+  <h5 class="tagline">{{ tagline }}</h5>
 
-    <nav>
-      {% for link in collections.navbar_links %}
-      <a href="{{ link.url | url }}" {% if page.url contains link.url and link.url !='/' or page.url=='/' and link.url=='/' %} class="active" {% endif %}>
-        <h5>  {{ link.data.title | strip }} </h5>
-      </a>
-      {% endfor %}
-    </nav>
-  </div>
+  <nav>
+    {% for link in collections.navbar_links %}
+    <a href="{{ link.url | url }}" {% if page.url contains link.url and link.url !='/' or page.url=='/' and link.url=='/' %} class="active" {% endif %}>
+      <h5>  {{ link.data.title | strip }} </h5>
+    </a>
+    {% endfor %}
+  </nav>
 
   <main class=container>
     {{ content }}
