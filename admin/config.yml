@@ -1,12 +1,18 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: lukestorry/marniewoodmeade
 media_folder: "assets/images"
 collections:
   - name: "pages"
     label: "General Pages"
     folder: "src/"
     create: false
+    filter:
+      field: layout
+      value: default
     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+      - {label: "Title", name: "title", widget: "string"}
   - name: "blog"
     label: "Blog Posts"
     folder: "src/blog"
