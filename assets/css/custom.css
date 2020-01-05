@@ -27,7 +27,7 @@ body {
 
 nav {
   text-align: center;
-  background-color: cyan;
+  background-color: #39b;
   /* horizontal scrolling */
   overflow: auto;
   white-space: nowrap;
