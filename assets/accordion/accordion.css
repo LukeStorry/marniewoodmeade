@@ -1,0 +1,31 @@
+.header {
+  background-color: lightgrey;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 0;
+}
+
+.header.active {
+  margin-top: 2rem;
+  background-color: grey;
+}
+
+.header:hover {
+  background-color: grey;
+}
+
+.header.disabled, .header.disabled:hover {
+  background-color: lightgrey;
+  cursor: auto;
+  color: grey;
+  font-style: italic;
+}
+
+.contents {
+  padding: 2rem;
+  background-color: white;
+  display: none;
+  border-style: solid;
+  border-color: grey;
+  margin-bottom: 2rem;
+}
