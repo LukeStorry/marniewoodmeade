@@ -13,23 +13,26 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "text"}
   - name: "blog"
-    label: "Blog Posts"
+    label: "Blog Post"
     folder: "src/blog"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Display Order", name: "display_order", widget: "number"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Display Order", name: "display_order", widget: "number", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "articles"
-    label: "Articles"
+  - name: "article"
+    label: "Article"
     folder: "src/articles"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Display Order", name: "display_order", widget: "number"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Display Order", name: "display_order", widget: "number", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
