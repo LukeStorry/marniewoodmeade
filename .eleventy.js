@@ -16,12 +16,6 @@ module.exports = function(eleventyConfig) {
     .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
   );
 
-  // 
-  // eleventyConfig.addCollection("gallery", collection =>
-  //   collection.getFilteredByGlob("*/articles/*.md")
-  //   .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
-  // );
-
   eleventyConfig.addPassthroughCopy('assets');
 
   return {
