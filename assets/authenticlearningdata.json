@@ -45,54 +45,48 @@
               },
               {
                 "title": "Theatre"
-              },
+              }
+            ]
+          },
+          {
+            "title": "School of Humanities",
+            "children": [
               {
-                "title": "School of Humanities",
+                "title": "History",
                 "children": [
                   {
-                    "title": "History",
+                    "title": "Classics and Ancient History",
                     "children": [
                       {
-                        "title": "Classics and Ancient History",
+                        "title": "Applied Classics",
+                        "text": "This module is aimed to develop students project management skills by challenging them to find a way to introduce an element of classics to the wider public.\nThis could be anything from an exhibition to an academic publication.\n",
                         "children": [
                           {
-                            "title": "Applied Classics",
-                            "text": "This module is aimed to develop students project management skills by challenging them to find a way to introduce an element of classics to the wider public.\nThis could be anything from an exhibition to an academic publication.\n",
+                            "title": "Assessment",
                             "children": [
                               {
-                                "title": "Assessment",
-                                "children": [
-                                  {
-                                    "title": "Formative",
-                                    "text": "This is a three part assessment that has real world relevance and the assessment is integrated seamlessly into the task. It also requires students to collaborate and consider multiple stakeholders and perspectives.\n",
-                                    "bullets": [
-                                      "Group minutes, budget, action plan and funding bids.",
-                                      "Individual student work logs and the preparation of a CV.",
-                                      "Project display"
-                                    ]
-                                  }
+                                "title": "Formative",
+                                "text": "This is a three part assessment that has real world relevance and the assessment is integrated seamlessly into the task. It also requires students to collaborate and consider multiple stakeholders and perspectives.\n",
+                                "bullets": [
+                                  "Group minutes, budget, action plan and funding bids.",
+                                  "Individual student work logs and the preparation of a CV.",
+                                  "Project display"
                                 ]
                               },
                               {
                                 "title": "Summative",
                                 "text": "Students are required to write a 3000 word reflective essay which not only asks students to reflect on the success of their own projects, but also the role for classics in the wider community."
-                              },
-                              {
-                                "title": "Learning",
-                                "text": "Aside from the summative essay, students are required to work in groups to produce a polished end product. Sessions include training sessions from Careers, RED and more, demonstrating a variety of perspectives and developing a range of skills."
                               }
                             ]
+                          },
+                          {
+                            "title": "Learning",
+                            "text": "Aside from the summative essay, students are required to work in groups to produce a polished end product. Sessions include training sessions from Careers, RED and more, demonstrating a variety of perspectives and developing a range of skills."
                           }
                         ]
                       }
                     ]
                   }
-                ]
-              },
-              {
-                "title": "School of Arts",
-                "children": [
-                  {}
                 ]
               }
             ]
