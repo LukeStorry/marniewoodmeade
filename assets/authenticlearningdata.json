@@ -26,35 +26,369 @@
     "title": "In the curriculum",
     "children": [
       {
-        "title": "Classics and Ancient History",
+        "title": "Undergraduate",
         "children": [
           {
-            "title": "Applied Classics",
-            "text": "This module is aimed to develop students project management skills by challenging them to find a way to introduce an element of classics to the wider public.\nThis could be anything from an exhibition to an academic publication.\n",
+            "title": "School of Arts",
             "children": [
               {
-                "title": "Assessment",
+                "title": "Anthropology and Archaeology"
+              },
+              {
+                "title": "Film and Television"
+              },
+              {
+                "title": "Music"
+              },
+              {
+                "title": "Philosophy"
+              },
+              {
+                "title": "Theatre"
+              },
+              {
+                "title": "School of Humanities",
                 "children": [
                   {
-                    "title": "Formative",
-                    "text": "This is a three part assessment that has real world relevance and the assessment is integrated seamlessly into the task. It also requires students to collaborate and consider multiple stakeholders and perspectives.\n",
-                    "bullets": [
-                      "Group minutes, budget, action plan and funding bids.",
-                      "Individual student work logs and the preparation of a CV.",
-                      "Project display"
+                    "title": "History",
+                    "children": [
+                      {
+                        "title": "Classics and Ancient History",
+                        "children": [
+                          {
+                            "title": "Applied Classics",
+                            "text": "This module is aimed to develop students project management skills by challenging them to find a way to introduce an element of classics to the wider public.\nThis could be anything from an exhibition to an academic publication.\n",
+                            "children": [
+                              {
+                                "title": "Assessment",
+                                "children": [
+                                  {
+                                    "title": "Formative",
+                                    "text": "This is a three part assessment that has real world relevance and the assessment is integrated seamlessly into the task. It also requires students to collaborate and consider multiple stakeholders and perspectives.\n",
+                                    "bullets": [
+                                      "Group minutes, budget, action plan and funding bids.",
+                                      "Individual student work logs and the preparation of a CV.",
+                                      "Project display"
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "title": "Summative",
+                                "text": "Students are required to write a 3000 word reflective essay which not only asks students to reflect on the success of their own projects, but also the role for classics in the wider community."
+                              },
+                              {
+                                "title": "Learning",
+                                "text": "Aside from the summative essay, students are required to work in groups to produce a polished end product. Sessions include training sessions from Careers, RED and more, demonstrating a variety of perspectives and developing a range of skills."
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     ]
                   }
                 ]
               },
               {
-                "title": "Summative",
-                "text": "Students are required to write a 3000 word reflective essay which not only asks students to reflect on the success of their own projects, but also the role for classics in the wider community."
-              },
-              {
-                "title": "Learning",
-                "text": "Aside from the summative essay, students are required to work in groups to produce a polished end product. Sessions include training sessions from Careers, RED and more, demonstrating a variety of perspectives and developing a range of skills."
+                "title": "School of Arts",
+                "children": [
+                  {}
+                ]
               }
             ]
+          },
+          {
+            "title": "English",
+            "children": [
+              {
+                "title": "Creative Non-Fiction"
+              },
+              {
+                "title": "History of Art"
+              },
+              {
+                "title": "Religion and Theology"
+              }
+            ]
+          },
+          {
+            "title": "School of Modern Languages",
+            "children": [
+              {
+                "title": "French"
+              },
+              {
+                "title": "German"
+              },
+              {
+                "title": "Hispanic, Portuguese and Latin American Studies"
+              },
+              {
+                "title": "Italian"
+              },
+              {
+                "title": "Russian"
+              }
+            ]
+          },
+          {
+            "title": "Centre for Academic Language and Development"
+          },
+          {
+            "title": "Centre for Innovation"
+          },
+          {
+            "title": "Liberal Arts",
+            "children": [
+              {
+                "title": "The Public Role of Humanities"
+              }
+            ]
+          },
+          {
+            "title": "Engineering",
+            "children": [
+              {
+                "title": "School of Computer Science, Electrical and Electronic Engineering and Engineering Mathematics"
+              },
+              {
+                "title": "Computer Science"
+              },
+              {
+                "title": "Electrical and Electronic Engineering"
+              },
+              {
+                "title": "Engineering Mathematics"
+              },
+              {
+                "title": "School of Civil, Aerospace and Mechanical Engineering"
+              },
+              {
+                "title": "Aerospace Engineering"
+              },
+              {
+                "title": "Civil Engineering",
+                "children": [
+                  {
+                    "title": "Timber Engineering 4 'The Office'",
+                    "children": [
+                      {
+                        "title": "Description"
+                      },
+                      {
+                        "title": "Assessment"
+                      },
+                      {
+                        "title": "Learning"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Mechanical Engineering"
+              }
+            ]
+          },
+          {
+            "title": "Life Sciences",
+            "children": [
+              {
+                "title": "School of Biological Sciences"
+              },
+              {
+                "title": "School of Biochemistry"
+              },
+              {
+                "title": "School of Cellular and Molecular Medicine"
+              },
+              {
+                "title": "School of Physiology, Pharmacology and Neuroscience"
+              },
+              {
+                "title": "School of Psychological Science"
+              },
+              {
+                "title": "Life Sciences Faculty Office",
+                "children": [
+                  {
+                    "title": "Biomedical Research Employability and Enterprise Skills",
+                    "children": [
+                      {
+                        "title": "Description"
+                      },
+                      {
+                        "title": "Assessment"
+                      },
+                      {
+                        "title": "Learning"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Science",
+            "children": [
+              {
+                "title": "School of Chemistry",
+                "children": [
+                  {
+                    "title": "Introductory Practical Chemistry",
+                    "text": "Link to unit page: <a href='https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=CHEM10004'>CHEM10004</a>",
+                    "children": [
+                      {
+                        "title": "Description"
+                      },
+                      {
+                        "title": "Assessment"
+                      },
+                      {
+                        "title": "Learning"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Intermediate Practical and Analytical Chemistry"
+                  },
+                  {
+                    "title": "Advanced Practical Chemistry"
+                  }
+                ]
+              },
+              {
+                "title": "School of Earth Sciences"
+              },
+              {
+                "title": "School of Geographical Sciences"
+              },
+              {
+                "title": "School of Mathematics"
+              },
+              {
+                "title": "School of Physics"
+              },
+              {
+                "title": "Health Sciences"
+              }
+            ]
+          },
+          {
+            "title": "Bristol Dental School",
+            "children": [
+              {
+                "title": "Clinical Skills"
+              },
+              {
+                "title": "Personal and Professional Development"
+              },
+              {
+                "title": "Clinical Practice"
+              }
+            ]
+          },
+          {
+            "title": "Bristol Medical School"
+          },
+          {
+            "title": "Bristol Veterinary School",
+            "children": [
+              {
+                "title": "Professional Veterinary Nursing"
+              },
+              {
+                "title": "Professional Studies"
+              },
+              {
+                "title": "Animal Management"
+              },
+              {
+                "title": "Clinical Nursing Practice"
+              },
+              {
+                "title": "Clinical Skills"
+              }
+            ]
+          },
+          {
+            "title": "Centre for Health Sciences Education"
+          },
+          {
+            "title": "Social Sciences and Law"
+          },
+          {
+            "title": "School for Policy Studies"
+          },
+          {
+            "title": "SPAIS",
+            "children": [
+              {
+                "title": "Contemporary Feminist Thought",
+                "children": [
+                  {
+                    "title": "Description",
+                    "text": "This unit not only requires students to think about academic theorists conceptualize gender and sex, but also how that is relevant to politics, citizenship and democracy."
+                  },
+                  {
+                    "title": "Assessment",
+                    "bullets": [
+                      "25%: 'Feature Article' on a famous feminist. This can be a real or imagined publication and requires students to think about how the famous feminist would talk  but also develop their own interview style, and how that would fit the tone of their publication.",
+                      "75%: A briefing proposing a research programme to a 'think tank' that includes an action plan and budget. This demonstrates students using their skills to consider multiple stakeholders and how that could be relevant to the real world."
+                    ]
+                  },
+                  {
+                    "title": "Learning",
+                    "text": "This module requires students to think about how feminist thought is relevant to the 'real-world' in issues such as maternity leave and pay and discrimination.  They should acquire skills outside of the classroom such as budgeting and engaging non-academic writing."
+                  }
+                ]
+              },
+              {
+                "title": "Gaston's Unit"
+              }
+            ]
+          },
+          {
+            "title": "School of Education"
+          },
+          {
+            "title": "School for Economics Finance and Management"
+          },
+          {
+            "title": "University of Bristol Law School"
+          }
+        ]
+      },
+      {
+        "title": "Postgraduate",
+        "children": [
+          {
+            "title": "Art"
+          },
+          {
+            "title": "Life Sciences"
+          },
+          {
+            "title": "Science"
+          },
+          {
+            "title": "Health Science"
+          },
+          {
+            "title": "Engineering"
+          },
+          {
+            "title": "Bristol Futures"
+          },
+          {
+            "title": "Sustainable Futures"
+          },
+          {
+            "title": "Innovation and Enterprise"
+          },
+          {
+            "title": "Global Citizenship"
           }
         ]
       }
