@@ -6,7 +6,7 @@ fetch('/assets/authenticlearningdata.json')
   .then(addClickListeners);
 
 function createAccordion(file) {
-  const data = JSON.parse(file);
+  const data = JSON.parse(file).data;
   console.log(data);
   let root = document.getElementById('accordion');
   data.forEach(dataSection => appendSection(dataSection, root));
