@@ -13,14 +13,14 @@ function createAccordion(file) {
 }
 
 
-function appendSection(sectionData, element) {
-  let header = createHeader(sectionData.title);
+function appendSection(sectionData, element, level = 0) {
+  let header = createHeader(sectionData.title, level);
 
   let contents = document.createElement('div');
   contents.classList.add('contents');
   if (typeof sectionData.text !== 'undefined') contents.append(createText(sectionData.text));
   if (typeof sectionData.bullets !== 'undefined') contents.append(createBullets(sectionData.bullets));
-  if (typeof sectionData.children !== 'undefined') sectionData.children.forEach(inner => appendSection(inner, contents));
+  if (typeof sectionData.children !== 'undefined') sectionData.children.forEach(inner => appendSection(inner, contents, level + 1));
 
   element.append(header);
   if (contents.firstChild) {
@@ -30,10 +30,10 @@ function appendSection(sectionData, element) {
   }
 }
 
-function createHeader(t) {
-  var h = document.createElement('h5');
+function createHeader(text, level) {
+  var h = document.createElement(level < 3 ? 'h5' : 'h6');
   h.classList.add('header');
-  h.innerHTML = t;
+  h.innerHTML = text;
   return h;
 }
 
