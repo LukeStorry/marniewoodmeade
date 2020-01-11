@@ -1,3 +1,6 @@
+var nestedAccordion = require('nested-accordion')
+var authenticLearningData = require('./assets/authenticlearningdata.json')
+
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("navbar_links", collection => {
@@ -16,6 +19,15 @@ module.exports = function(eleventyConfig) {
     .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
   );
 
+  eleventyConfig.addShortcode("authentic_learning_accordion", () =>
+    nestedAccordion.create(authenticLearningData));
+
+  eleventyConfig.addShortcode("accordion_styles", () =>
+    `<style>
+   ${nestedAccordion.styles()}
+   </style>
+   `)
+
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('admin');
 
@@ -25,6 +37,7 @@ module.exports = function(eleventyConfig) {
       includes: "_layouts",
       output: "./_site",
     },
+
     passthroughFileCopy: true
   };
 }
