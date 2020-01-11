@@ -3,7 +3,7 @@
 fetch('/assets/authenticlearningdata.json')
   .then(r => r.text())
   .then(createAccordion)
-  .then(addClickListeners);
+  .then(addListeners);
 
 function createAccordion(file) {
   const data = JSON.parse(file);
@@ -14,7 +14,6 @@ function createAccordion(file) {
 
 
 function appendSection(sectionData, element, level = 0) {
-  let header = createHeader(sectionData.title, level);
 
   let contents = document.createElement('div');
   contents.classList.add('contents');
@@ -22,18 +21,22 @@ function appendSection(sectionData, element, level = 0) {
   if (typeof sectionData.bullets !== 'undefined') contents.append(createBullets(sectionData.bullets));
   if (typeof sectionData.children !== 'undefined') sectionData.children.forEach(inner => appendSection(inner, contents, level + 1));
 
-  element.append(header);
   if (contents.firstChild) {
+    element.append(createHeader(sectionData.title, level));
     element.append(contents);
   } else {
-    header.classList.add('disabled');
+    element.append(createHeader(sectionData.title, level, false));
   }
 }
 
-function createHeader(text, level) {
-  var h = document.createElement(level < 3 ? 'h5' : 'h6');
-  h.classList.add('header');
+function createHeader(text, level, enabled = true) {
+  var h = document.createElement('a');
   h.innerHTML = text;
+  h.classList.add('header');
+
+  if (enabled) h.setAttribute('tabindex', 0);
+  else h.classList.add('disabled');
+
   return h;
 }
 
@@ -53,17 +56,20 @@ function createBullets(arr) {
   return ul;
 }
 
-function addClickListeners() {
+function addListeners() {
   var headers = document.getElementsByClassName("header");
   for (let i = 0; i < headers.length; i++) {
+
     if (headers[i].classList.contains('disabled')) continue;
+
     headers[i].addEventListener("click", function() {
       this.classList.toggle("active");
-      var contents = this.nextElementSibling;
-      if (contents.style.display === "block") {
-        contents.style.display = "none";
-      } else {
-        contents.style.display = "block";
+      this.nextElementSibling.classList.toggle("active");
+    });
+
+    headers[i].addEventListener('keydown', function(event) {
+      if (event.code === 'Space' || event.code === 'Enter') {
+        headers[i].click();
       }
     });
   }
