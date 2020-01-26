@@ -38,10 +38,11 @@ nav {
 }
 
 nav a {
+  margin: 0 -2px 0 -2px;
   display: inline-block;
   color: black;
   text-align: center;
-  padding: 20px 10px 5px 10px;
+  padding: 2rem 2rem 0 2rem;
   text-decoration: none;
 }
 
@@ -66,6 +67,7 @@ main {
 
 article p {
   font-size: 130%;
+  text-align: justify;
 }
 
 img {
@@ -80,5 +82,4 @@ img {
 .date {
   text-align: right;
   font-style: italic;
-  font-size: 90%;
 }
