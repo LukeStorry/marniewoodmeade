@@ -11,7 +11,7 @@ textfont: Roboto
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="{{ tagline }} {{ description }}">
+  <meta name="description" content="{{ description || tagline }}">
   <link rel="icon" href="{{ " /assets/favicon.ico " | url }}" type="image/x-icon" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ headerfont | replace: ' ', '+' }}|{{ textfont | replace: ' ', '+' }}&display=swap">
