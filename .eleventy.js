@@ -12,12 +12,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("blog", collection =>
     collection
       .getFilteredByGlob("*/blog/*.md")
+      .sort((a, b) => (b.data.date > a.data.date ? 1 : -1))
       .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
   );
 
   eleventyConfig.addCollection("articles", collection =>
     collection
       .getFilteredByGlob("*/articles/*.md")
+      .sort((a, b) => (b.data.date > a.data.date ? 1 : -1))
       .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
   );
 
