@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-in_navbar: 3
+# in_navbar: 3
 ---
 
 <div class="row">
