@@ -66,6 +66,27 @@ main {
   font-size: 125%;
 }
 
+.full-view {
+  background-color: white;
+  width: 100%;
+  width: 100vw;
+  position: fixed;
+  /* top: 10rem; */
+  left: 0;
+}
+
+.full-view h4 {
+  margin: -10rem auto 0 auto;
+  max-width: 64rem;
+  padding: 0.5rem;
+  position: relative;
+  top: 10rem;
+  text-align: center;
+  z-index: 90;
+  background-color: #fffa;
+  border-radius: 1rem;
+}
+
 article p {
   font-size: 110%;
   text-align: justify;

@@ -14,41 +14,31 @@ map.on("load", addAuthenticLearningPoints);
 map.on("load", add3dBuildingLayer);
 
 // TODO map the real data to this object
-const authenticLearningFeatures = {
+const mapDataToGeoFeatures = data => ({
   type: "FeatureCollection",
-  features: [
-    {
-      type: "Feature",
-      properties: {
-        name: "Building Two",
-        html: `<div style="background-color:red;">
-          red box
-          </div>
-          <div>
-          box2
-          </div>
-          `
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [-2.6035, 51.4584]
-      }
+  features: data.map(location => ({
+    type: "Feature",
+    properties: {
+      name: location.title,
+      html: `<div style="margin:2rem 1rem -1rem 1rem">
+            ${generateHtml(location.children)}
+            </div>`
     },
-    {
-      type: "Feature",
-      properties: {
-        name: "Building One",
-        html: "popup text 1"
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [-2.603, 51.4594]
-      }
+    geometry: {
+      type: "Point",
+      coordinates: location.text.split(",").map(parseFloat)
     }
-  ]
-};
+  }))
+});
 
-function addAuthenticLearningPoints() {
+async function addAuthenticLearningPoints() {
+  let authenticLearningFeatures = await fetch(
+    "/assets/authenticlearningdata.json"
+  )
+    .then(r => r.text())
+    .then(JSON.parse)
+    .then(mapDataToGeoFeatures);
+
   map.addSource("authentic-learning-points", {
     type: "geojson",
     data: authenticLearningFeatures
@@ -57,7 +47,11 @@ function addAuthenticLearningPoints() {
     id: "authentic-learning-points",
     type: "symbol",
     source: "authentic-learning-points",
-    layout: { "text-field": ["get", "name"] }
+    layout: {
+      "text-field": ["get", "name"]
+      // "icon-image": "college-15",
+      // "icon-allow-overlap": true
+    }
   });
 
   map.on("click", "authentic-learning-points", function(e) {

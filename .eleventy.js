@@ -23,9 +23,11 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
   );
 
-  eleventyConfig.addShortcode("authentic_learning_accordion", () =>
-    nestedAccordion.create(authenticLearningData)
-  );
+  eleventyConfig.addShortcode("authentic_learning_accordion", () => {
+    authenticLearningData.forEach(location => delete location.text); // remove gps coordinates
+    authenticLearningData.sort((a, b) => (a.title > b.title ? 1 : -1));
+    return nestedAccordion.create(authenticLearningData);
+  });
 
   eleventyConfig.addShortcode(
     "accordion_styles",
