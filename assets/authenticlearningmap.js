@@ -13,20 +13,22 @@ map.on("load", removePoiLabels);
 map.on("load", addAuthenticLearningPoints);
 map.on("load", add3dBuildingLayer);
 
-// TODO map the real data to this object
 const mapDataToGeoFeatures = data => ({
   type: "FeatureCollection",
   features: data.map(location => ({
     type: "Feature",
     properties: {
       name: location.title,
-      html: `<div style="margin:2rem 1rem -1rem 1rem">
-            ${generateHtml(location.children)}
-            </div>`
+      html: `<h6>${location.title}</h6>
+              ${generateHtml(location.children)}`,
+      size: location.children.flat().length + 2
     },
     geometry: {
       type: "Point",
-      coordinates: location.text.split(",").map(parseFloat)
+      coordinates: location.text
+        .split(",")
+        .map(parseFloat)
+        .sort()
     }
   }))
 });
@@ -39,37 +41,67 @@ async function addAuthenticLearningPoints() {
     .then(JSON.parse)
     .then(mapDataToGeoFeatures);
 
+  console.log("GeoJson: ", authenticLearningFeatures);
+
   map.addSource("authentic-learning-points", {
     type: "geojson",
     data: authenticLearningFeatures
   });
   map.addLayer({
-    id: "authentic-learning-points",
+    id: "authentic-learning-text",
     type: "symbol",
     source: "authentic-learning-points",
     layout: {
       "text-field": ["get", "name"]
-      // "icon-image": "college-15",
-      // "icon-allow-overlap": true
     }
   });
-
-  map.on("click", "authentic-learning-points", function(e) {
+  map.on("click", "authentic-learning-text", function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
-    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-    }
     new mapboxgl.Popup()
       .setLngLat(coordinates)
       .setHTML(e.features[0].properties.html)
       .addTo(map);
   });
-  map.on("mouseenter", "authentic-learning-points", function() {
+  map.on("mouseenter", "authentic-learning-text", function() {
     map.getCanvas().style.cursor = "pointer";
   });
-  map.on("mouseleave", "authentic-learning-points", function() {
+  map.on("mouseleave", "authentic-learning-text", function() {
     map.getCanvas().style.cursor = "";
   });
+
+  map.addLayer(
+    {
+      id: "authentic-learning-heatmap",
+      type: "heatmap",
+      source: "authentic-learning-points",
+      paint: {
+        // Increase the heatmap weight based on size property
+        "heatmap-weight": [
+          "interpolate",
+          ["linear"],
+          ["get", "size"],
+          0,
+          0,
+          15,
+          1
+        ],
+        "heatmap-color": [
+          "interpolate",
+          ["linear"],
+          ["heatmap-density"],
+          0,
+          "rgba(176,28,46,0)",
+          0.2,
+          "rgb(162,10,28)",
+          0.7,
+          "rgba(176,28,46,200)",
+          1,
+          "rgb(162,10,28)"
+        ]
+      }
+    },
+    "waterway-label"
+  );
 }
 
 function removePoiLabels() {
