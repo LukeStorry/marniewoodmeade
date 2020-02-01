@@ -16,6 +16,20 @@ title: Authentic Learning at UoB - Map
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
 
-<script>const exports = {};</script>
+<script> const exports = {}; </script>
 <script src='https://unpkg.com/nested-accordion@1.2.4/dist/generateHtml.js'></script>
 <script src='/assets/authenticlearningmap.js'></script>
+
+<style>
+.mapboxgl-popup-close-button {
+    height: 1rem;
+    padding-right: 1rem;
+}
+.mapboxgl-popup-content{
+    padding-bottom: 0;
+}
+.mapboxgl-popup-content h6 {
+    text-align: center;
+    margin-bottom: 0;
+}
+</style>

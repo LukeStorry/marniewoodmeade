@@ -8,7 +8,7 @@
   "author": "Luke Storry",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "nested-accordion": "^1.2.0"
+    "@11ty/eleventy": "0.10.0",
+    "nested-accordion": "1.2.5"
   }
 }
