@@ -2,6 +2,7 @@
 layout: default
 title: Articles
 in_navbar: 2
+description: On my articles page, you can see a list of some of the recent interviews, reviews, and discussions that I have written for various news-outlets and think-tanks.
 ---
 
 <div class="row">

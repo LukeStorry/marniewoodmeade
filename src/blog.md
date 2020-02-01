@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 # in_navbar: 3
+description: Some of my musings.
 ---
 
 <div class="row">

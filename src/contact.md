@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 in_navbar: 5
+description: Feel free to get in touch, via email or LinkedIn.
 ---
 
 <div class="row">

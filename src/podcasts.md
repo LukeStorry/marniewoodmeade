@@ -2,6 +2,7 @@
 layout: default
 title: Podcasts
 in_navbar: 4
+description: A list of my podcasts.
 ---
 
 <div class="row">
