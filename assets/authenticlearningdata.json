@@ -393,12 +393,12 @@
   },
   {
     "title": "School of Education",
-    "text": "",
+    "text": "51.455119, -2.604897",
     "children": []
   },
   {
     "title": "School for Economics Finance and Management",
-    "text": "",
+    "text": "51.459994, -2.604883",
     "children": []
   },
   {
@@ -407,7 +407,7 @@
     "children": []
   },
   {
-    "title": "Extra-Curricular",
+    "title": "Richmond Building",
     "text": "-2.6150709,51.4568702",
     "children": [
       {
@@ -425,11 +425,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "title": "Bristol PLUS Award",
-        "text": "",
-        "children": []
       },
       {
         "title": "Bristol SU",
