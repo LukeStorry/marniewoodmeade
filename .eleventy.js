@@ -25,7 +25,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addShortcode("authentic_learning_accordion", () => {
     authenticLearningData.forEach(location => delete location.text); // remove gps coordinates
-    authenticLearningData.sort((a, b) => (a.title > b.title ? 1 : -1));
     return nestedAccordion.create(authenticLearningData);
   });
 
