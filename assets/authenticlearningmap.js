@@ -12,6 +12,7 @@ var map = new mapboxgl.Map({
 map.on("load", removePoiLabels);
 map.on("load", addAuthenticLearningPoints);
 map.on("load", add3dBuildingLayer);
+map.on("click", (e) => console.log(e.lngLat.toArray().join(',')));
 
 const mapDataToGeoFeatures = data => ({
   type: "FeatureCollection",
