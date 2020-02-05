@@ -50,7 +50,7 @@ textfont: Roboto
     {% endfor %}
   </nav>
 
-  <main class="container">
+  <main {% if no-margin %} class="no-margin" {% else %} class="container" {% endif %}>
     {{ content }}
   </main>
 

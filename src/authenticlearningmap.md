@@ -2,17 +2,14 @@
 layout: default
 title: Authentic Learning at UoB - Map
 description: An interactive heat-map of the University of Bristol, showing areas and details of which departments and courses offer Authentic-Learning based teaching.
+no-margin: true
 ---
 
 {% accordion_styles %}
 
-<div class="full-view">
-
 #### Authentic Learning at the University of Bristol
 
-<div id='map' style='width: 100%; height: 80vh;'></div>
-
-</div>
+<div id='map' style='width: 100%; height: 100vh; z-index:100;'></div>
 
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
