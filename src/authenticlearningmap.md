@@ -5,11 +5,9 @@ description: An interactive heat-map of the University of Bristol, showing areas
 no-margin: true
 ---
 
-{% accordion_styles %}
-
 #### Authentic Learning at the University of Bristol
 
-<div id='map' style='width: 100%; height: 100vh; z-index:100;'></div>
+<div id='map' style='width: 100%; height: 100vh;'></div>
 
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
@@ -31,3 +29,5 @@ no-margin: true
     margin-bottom: 0;
 }
 </style>
+
+{% accordion_styles %}

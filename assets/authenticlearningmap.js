@@ -85,20 +85,20 @@ async function addAuthenticLearningPoints() {
           0,
           15,
           1
-        ],
-        "heatmap-color": [
-          "interpolate",
-          ["linear"],
-          ["heatmap-density"],
-          0,
-          "rgba(176,28,46,0)",
-          0.2,
-          "rgb(162,10,28)",
-          0.7,
-          "rgba(176,28,46,200)",
-          1,
-          "rgb(162,10,28)"
         ]
+        // "heatmap-color": [
+        //   "interpolate",
+        //   ["linear"],
+        //   ["heatmap-density"],
+        //   0,
+        //   "rgba(176,28,46,0)",
+        //   0.2,
+        //   "rgb(162,10,28)",
+        //   0.7,
+        //   "rgba(176,28,46,200)",
+        //   1,
+        //   "rgb(162,10,28)"
+        // ]
       }
     },
     "waterway-label"
@@ -129,9 +129,9 @@ function add3dBuildingLayer() {
           "interpolate",
           ["linear"],
           ["zoom"],
-          14,
+          14.5,
           0,
-          15,
+          15.5,
           ["get", "height"]
         ]
       }
