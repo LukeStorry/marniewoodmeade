@@ -444,5 +444,16 @@
         ]
       }
     ]
+  },
+  {
+    "title": "BioMedical building",
+    "text": "-2.6002454014662817,51.45765393976578",
+    "children": [
+      {
+        "title": "Title",
+        "text": "text",
+        "children": []
+      }
+    ]
   }
 ]
