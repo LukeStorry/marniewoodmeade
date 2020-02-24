@@ -17,12 +17,20 @@ no-margin: true
 <script src='/assets/authenticlearningmap.js'></script>
 
 <style>
+.mapboxgl-popup {
+    max-width: 40rem !important;
+    width: 100%;
+}
 .mapboxgl-popup-close-button {
     height: 1rem;
     padding-right: 1rem;
 }
 .mapboxgl-popup-content{
+    max-height: 60vh;
     padding-bottom: 0;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: grey;
 }
 .mapboxgl-popup-content h6 {
     text-align: center;
