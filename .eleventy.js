@@ -1,5 +1,5 @@
 var nestedAccordion = require("nested-accordion");
-var authenticLearningData = require("./assets/authenticlearningdata.json");
+var authenticLearningDataFile = require("./assets/authenticlearningdata.json");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("navbar_links", collection => {
@@ -24,8 +24,9 @@ module.exports = function(eleventyConfig) {
   );
 
   eleventyConfig.addShortcode("authentic_learning_accordion", () => {
-    authenticLearningData.forEach(location => delete location.text); // remove gps coordinates
-    return nestedAccordion.create(authenticLearningData);
+    var data = JSON.parse(authenticLearningDataFile.data)
+    data.forEach(location => delete location.text); // remove gps coordinates
+    return nestedAccordion.create(data);
   });
 
   eleventyConfig.addShortcode(

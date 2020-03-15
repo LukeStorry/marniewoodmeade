@@ -41,6 +41,6 @@ collections:
     files:
       - name: "authenticlearningdata"
         label: "Authentic Learning Data"
-        file: "assets/authenticlearningdata2.json"
+        file: "assets/authenticlearningdata.json"
         fields:
           - {label: "Data", name: "data", widget: "NestedJsonEditor"}

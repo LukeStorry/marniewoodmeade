@@ -40,6 +40,7 @@ async function addAuthenticLearningPoints() {
   )
     .then(r => r.text())
     .then(JSON.parse)
+    .then(o => JSON.parse(o.data))
     .then(mapDataToGeoFeatures);
 
   console.log("GeoJson: ", authenticLearningFeatures);
