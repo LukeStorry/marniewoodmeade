@@ -32,12 +32,6 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - {
-          label: "Display Order",
-          name: "display_order",
-          widget: "number",
-          required: false,
-        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "article"
@@ -54,12 +48,6 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Image Url", name: "image", widget: "string", required: false }
-      - {
-          label: "Display Order",
-          name: "display_order",
-          widget: "number",
-          required: false,
-        }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "data"
