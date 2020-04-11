@@ -4,13 +4,21 @@ layout: default
 <article>
 <div class="card">
 
-    <h3>{{ title }}</h3>
-    <p class="date">
-      {{ page.date | date: "%d %B %Y" }}
-    </p>
-
-    {{content}}
-
+{% if image and image != '' %}
+  <div class="highlight">
+  <img src="{{ image }}"/>
+  <h3>{{ title }}</h3>
   </div>
+{% else %}
+  <h3>{{ title }}</h3>
+{% endif %}
+
+<p class="date">
+{{ page.date | date: "%d %B %Y" }}
+</p>
+
+{{content}}
+
+</div>
 </div>
 </article>

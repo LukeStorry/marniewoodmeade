@@ -3,11 +3,11 @@ layout: article
 title: An (a)typical day in The Office
 description: Amy Palmer, Toby Roberts and Marnie Woodmeade all visited James
   Norman's 'The Office' project and have shared their experiences.
+image: https://i2.wp.com/bilt.online/wp-content/uploads/2019/11/justtimber.jpg
 date: 2019-11-14T00:00:00.000Z
 ---
-*Originally written for [Bristol Institute of Learning and Teaching](https://bilt.online/an-atypical-day-in-the-office/).*
 
-<img src="https://i2.wp.com/bilt.online/wp-content/uploads/2019/11/justtimber.jpg" alt="Photo of coffee mugs in an office">
+_Originally written for [Bristol Institute of Learning and Teaching](https://bilt.online/an-atypical-day-in-the-office/)._
 
 <em>Amy Palmer, Toby Roberts and Marnie Woodmeade all visited James Norman's 'The Office' project and have shared their experiences below. </em>
 
@@ -56,7 +56,7 @@ James' Just Timber office is a product of a great idea, hard work and dedication
 a unit in this way. Please get in touch with BILT if you'd like to learn more
 about setting up a project similar to this in your unit.&nbsp;&nbsp;&nbsp;
 
-- - -
+---
 
 ##### Marnie's reflection:
 
@@ -76,7 +76,7 @@ students felt that communication between units is key. This not only has the
 benefit of reducing their stress but treating students as valued workers
 positively impacts their outlook on university.&nbsp;&nbsp;
 
-- - -
+---
 
 ##### Toby's reflection:
 

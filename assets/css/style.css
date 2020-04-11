@@ -100,6 +100,28 @@ main {
   border-radius: 1rem;
 }
 
+.highlight {
+  text-align: center;
+}
+
+.highlight img {
+  height: 8rem;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: -6rem;
+}
+
+.highlight h3,
+.highlight h4 {
+  display: inline-block;
+  margin: 2rem 1rem;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #ddda;
+  border-radius: 1rem;
+  z-index: 500;
+}
+
 article p {
   font-size: 80%;
   text-align: justify;
