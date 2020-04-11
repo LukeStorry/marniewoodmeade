@@ -1,0 +1,31 @@
+---
+layout: article
+title: "Out of the ordinary: Tips to create authentic online teaching and learning"
+description: As we struggle to get our teaching online, this article examines
+  how we ensure that authentic learning continues. It includes tips and tricks
+  from a variety of units and subject areas.
+date: 2020-04-09T16:32:00.000Z
+---
+*Originally written for [Bristol Institute of Learning and Teaching](https://bilt.online/out-of-the-ordinary-tips-to-create-authentic-online-teaching-and-learning/).*
+
+> “*The value of authentic activity is not constrained to learning in real-life locations and practice, but that the benefits of authentic activity can be realized through careful design of Web-based learning environments*.” –[Lombardi](https://www.researchgate.net/profile/Marilyn_Lombardi/publication/220040581_Authentic_Learning_for_the_21st_Century_An_Overview/links/0f317531744eedf4d1000000.pdf)
+
+Well, I can safely say this is not how I thought I’d be spending my year but the quest for authentic learning continues. As we all struggle to get our learning and teaching online, I’ve created a handy guide on how to do authentic learning and teaching via the magical medium of the internet. It bears noting that although many of us would rather return to life, as usual, this is a time of considerable opportunity to change the way we teach and learn. The traditional format of lectures and seminars has been broken down and if ever there were a time to try something new, it is now.
+
+**Real-world relevance** is critical for authentic learning, but it is important not to fall into the trap of making everything about coronavirus. Now is an excellent time for using studying as a form of escapism. However, it is also an excellent time to be teaching about adaptability and how to manage a crisis.
+
+**Using stakeholders** has become tricky and nearly impossible. With many organisations furloughing their staff, now is not the best time for partnerships but to give an authentic experience, stakeholders can be imaginary. This can be anything from an imaginary business giving them a task, or more broadly how would they tackle an issue and who would it affect. For the unit [Managing and Evaluating Development](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=POLIM2036), students usually partner with NGOs, but now are being asked to create their own business plan to start up their own organisation. This allows students to create their own value and assess what is important to them and wider society.
+
+**Working collaboratively** is something that is now more crucial than ever. Social distancing can be lonely and feeling disconnected from your peers can be very isolating. Giving students an incentive to have regular communication with their classmates, be that via video call, normal call or even email, is an excellent way to not only improve their collaboration skills but also to maintain a sense of community. Also; as online communication is increasingly looking like the future of work, collaborating via online platforms is a crucial way of improving these skills.
+
+It is also crucial that while the contact hours have been limited that students are given the opportunity to feedback and that lecturers can monitor their progress to ensure that students are **sustaining their levels of investigation.**The Social Innovation Programme run by [Bristol Hub](https://www.facebook.com/BristolHubpage/) has been doing this using a Gantt Chart and tools such as [Trello](https://trello.com/). This is a way of including teaching soft skills and letting students visualise their progress, along with making sure that students are continuing with their work even if they are away from campus.
+
+Although lockdown has it’s challenges, it provides students and staff alike with a lot of time. This time can be useful for **reflection**: what is going well, how do students feel their course has been affected, what could be improved. Coming out of the Easter holidays, students may find it helpful to consider what they have already learnt and how this can be applied to the final term of the year. By allowing opportunities for continuous reflection, students are placed in a position to make more informed choices about their learning, along with communicating the value more effectively. In other words, authentic learning gold.
+
+Given the unusual circumstances of the entire year, students may feel inclined to stick to the reading list like glue as it’s no secret that many students are driven by their academic results. However, now is not the time for conventional teaching, and by encouraging students to look a t**multiple sources and perspectives** outside of normal reading can help to rekindle students love of their subject, in a time where they are probably not thinking about how History of Art has changed their life. By encouraging them to find sources and perspectives which students have found themselves and are therefore likely to be genuinely interested in, it can also help to cultivate a good online discussion- students (and staff) may be nervous in online group discussions so having something that they have found can be a useful starting point.
+
+The final way in which you can help to make online teaching more authentic is by **asking students what they want to be learning**. What do they want the rest of the term to look like? Are students more interested in mimicking traditional seminar formats online, or would they rather have asynchronous teaching using videos and podcasts? By asking students how they want to learn, it allows them to reflect on their learning process and think about the subjects they are particularly curious about. It also shows an acceptance that this is not business as usual; not everything about online teaching will work for every student but it is crucial to find a format that allows everyone to engage, even if it’s not in a way in which they are used to.
+
+I hope that this has been helpful, or at the very least food for thought. I would love to hear from students and lecturers alike, how would you change online learning and teaching? What would work for you? What do you want from the final term of this year?
+
+Marnie Woodmeade, Student Fellow
