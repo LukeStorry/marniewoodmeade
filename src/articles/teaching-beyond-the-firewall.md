@@ -5,6 +5,7 @@ description: "Teaching comes with it's challenges but teaching with an 8 hour
   time difference, unreliable wifi and a firewall is a whole different level.
   This article outlines how these challenges can be overcome with both
   synchronous and a synchronous teaching methods. "
+image: https://i2.wp.com/bilt.online/wp-content/uploads/2020/04/Firewall.png
 date: 2020-04-08T16:46:24.389Z
 ---
 Bristol is fortunate enough to have a large population of international students, many of whom come from mainland China. Given the new form of online teaching, this presents some significant challenges in terms of the firewall. Platforms such as Skype, Zoom, Whatsapp and Google are all blocked meaning that online teaching can become extremely challenging.
