@@ -2,8 +2,8 @@
 tagline: International Development Masters student at the University of Bristol.
 description: Welcome to my homepage, blog & portfolio.
 
-headerfont: Roboto Slab
-textfont: Roboto
+headerfont: Libre Franklin
+textfont: Libre Franklin
 ---
 
 <!DOCTYPE html>
@@ -15,14 +15,13 @@ textfont: Roboto
   <link rel="icon" href="{{ " /assets/favicon.ico " | url }}" type="image/x-icon" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ headerfont | replace: ' ', '+' }}|{{ textfont | replace: ' ', '+' }}&display=swap">
-  <link rel="stylesheet" href="/assets/css/custom.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/normalize.css">
-  <link rel="stylesheet" href="/assets/css/skeleton.css">
 
   <title>Marnie Woodmeade - {{title}}</title>
 
   <style>
-     h1, h2, h3, h4, h5, h6 { font-family: {{ headerfont }} }
+     h1, h2, h3, h4, h5, h6 { font-family: {{ headerfont }}; font-weight: 600; text-align: center; }
      p { font-family: {{ textfont }} }
    </style>
 

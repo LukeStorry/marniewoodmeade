@@ -4,16 +4,12 @@ layout: default
 <article>
 <div class="card">
 
-    <h3 class="center-text">{{ title }}</h3>
+    <h3>{{ title }}</h3>
     <p class="date">
       {{ page.date | date: "%d %B %Y" }}
     </p>
 
-    <div class="row">
-    <div class="ten columns offset-by-one">
-      {{content}}
-    </div>
-    </div>
+    {{content}}
 
   </div>
 </div>

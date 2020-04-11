@@ -62,7 +62,6 @@ We interviewed Jake to learn more about his mission and to give his cause some w
 “I’m glad I ended up flying solo because if I had been with someone I wouldn’t have met the people that I’ve met. I’m getting so much better at just talking to people and it helped so much with my anxiety. There was a time when the idea of talking to people I didn’t know was just, I couldn’t do it. Now you can’t shut me up! The little victories are so important as well. Getting messages from people saying that my vlogs and stuff have helped get them out of bed, it’s just amazing.”
 
 <img  src="https://media.thetab.com/blogs.dir/5/files/2016/11/14691076-653288218179476-4804525461606446808-n.jpg" alt="beach drawing photo">
-<div class="advert" id="mpu4"></div>
 
 ---
 
