@@ -12,27 +12,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("blog", (collection) =>
     collection
       .getFilteredByGlob("*/blog/*.md")
-      .sort((a, b) => (b.data.date > a.data.date ? 1 : -1))
-      .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
+      .sort((a, b) => (new Date(b.data.date) > new Date(a.data.date) ? 1 : -1))
   );
 
-  eleventyConfig.addCollection("articles", (collection) => {
-    const articles = collection
+  eleventyConfig.addCollection("articles", (collection) =>
+    collection
       .getFilteredByGlob("*/articles/*.md")
-      .sort((a, b) => (b.data.date > a.data.date ? 1 : -1))
-      .sort(
-        (a, b) => (b.data.display_order || 0) - (a.data.display_order || 0)
-      );
-
-    console.log(
-      articles.map((a) => ({
-        title: a.data.title,
-        order: a.data.display_order,
-      }))
-    );
-
-    return articles;
-  });
+      .sort((a, b) => (new Date(b.data.date) > new Date(a.data.date) ? 1 : -1))
+  );
 
   eleventyConfig.addShortcode("authentic_learning_accordion", () => {
     var data = JSON.parse(authenticLearningDataFile.data);
