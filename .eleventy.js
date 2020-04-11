@@ -16,12 +16,23 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
   );
 
-  eleventyConfig.addCollection("articles", (collection) =>
-    collection
+  eleventyConfig.addCollection("articles", (collection) => {
+    const articles = collection
       .getFilteredByGlob("*/articles/*.md")
       .sort((a, b) => (b.data.date > a.data.date ? 1 : -1))
-      .sort((a, b) => (b.data.display_order || 0) - (a.data.display_order || 0))
-  );
+      .sort(
+        (a, b) => (b.data.display_order || 0) - (a.data.display_order || 0)
+      );
+
+    console.log(
+      articles.map((a) => ({
+        title: a.data.title,
+        order: a.data.display_order,
+      }))
+    );
+
+    return articles;
+  });
 
   eleventyConfig.addShortcode("authentic_learning_accordion", () => {
     var data = JSON.parse(authenticLearningDataFile.data);
