@@ -4,6 +4,7 @@ title: "Out of the ordinary: Tips to create authentic online teaching and learni
 description: As we struggle to get our teaching online, this article examines
   how we ensure that authentic learning continues. It includes tips and tricks
   from a variety of units and subject areas.
+image: https://i1.wp.com/bilt.online/wp-content/uploads/2020/04/online-library-1553951810P8h.jpg
 date: 2020-04-09T16:32:00.000Z
 ---
 *Originally written for [Bristol Institute of Learning and Teaching](https://bilt.online/out-of-the-ordinary-tips-to-create-authentic-online-teaching-and-learning/).*
