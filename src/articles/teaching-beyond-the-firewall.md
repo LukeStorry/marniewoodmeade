@@ -34,7 +34,3 @@ Tencent Video- If you’re wanting to share video content, Tencent Video is the 
 **Ask your students**
 
 Although the information provided here will give a variety of options different people will want different things from their learning. Sending out a poll is a good way to decide what works for the majority of students and they may have ideas that work for teachers and students alike. In a time of crisis, it is important that students feel like they are being heard so offering avenues that they can reach out is a crucial way to make sure teaching is effective and students feel valued, even if they are 10,000 miles away.
-
-Marnie Woodmeade, Student Fellow
-
-### Share this:
