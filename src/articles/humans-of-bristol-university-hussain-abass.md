@@ -1,8 +1,12 @@
 ---
 layout: article
 title: Humans of Bristol University - Hussain Abass
-description: Hussain Abass is a third-year aerospace engineering student and president of the Islamic Society (or ISoc). We met in the bustling SU Living Room for a poignant discussion on his experience of Bristol University, and how engagement in student society supported him taking risks.
-date: 2020-01-09
+description: Hussain Abass is a third-year aerospace engineering student and
+  president of the Islamic Society (or ISoc). We met in the bustling SU Living
+  Room for a poignant discussion on his experience of Bristol University, and
+  how engagement in student society supported him taking risks.
+image: https://i1.wp.com/bilt.online/wp-content/uploads/2020/01/IMG-20190720-WA0036.jpg
+date: 2020-01-09T00:00:00.000Z
 ---
 
 _Originally written for [BILT](https://bilt.online/humans-of-bristol-university-hussain-abass/)_
