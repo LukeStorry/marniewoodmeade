@@ -4,7 +4,7 @@ title: Bristol University and the Climate Crisis
 description: Reflection on the role of higher education teaching and public
   engagement in addressing the climate emergency.
 image: https://i2.wp.com/bilt.online/wp-content/uploads/2020/02/Conference1.jpg?resize=768%2C704&ssl=1
-date: 2020-04-12T14:20:28.582Z
+date: 2020-02-15T15:20:28.582Z
 ---
 *This article was originally published for the [Bristol Institute of Learning and Teaching](https://bilt.online/bristol-university-and-the-climate-crisis-reflection-on-the-role-of-higher-education-teaching-and-public-engagement-in-addressing-the-climate-emergency/).*
 
