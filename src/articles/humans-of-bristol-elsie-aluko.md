@@ -1,8 +1,13 @@
 ---
 layout: article
 title: Humans of Bristol University - Elsie Aluko
-description: Elsie Aluko is a second year Physics student, and founder of the AfroLit society. We meet to grab a coffee at the Hawthorn's Café and are lucky enough to find one of the coveted window seats. We get the opportunity to reflect on the pitfalls of the 'university bubble', and discuss the risks and rewards of starting a new society.
-date: 2019-11-14
+description: Elsie Aluko is a second year Physics student, and founder of the
+  AfroLit society. We meet to grab a coffee at the Hawthorn's Café and are lucky
+  enough to find one of the coveted window seats. We get the opportunity to
+  reflect on the pitfalls of the 'university bubble', and discuss the risks and
+  rewards of starting a new society.
+image: https://i0.wp.com/bilt.online/wp-content/uploads/2019/11/Elsie.jpg
+date: 2019-11-14T00:00:00.000Z
 ---
 
 _Originally written for [BILT](https://bilt.online/humans-of-bristol-elsie-aluko/)_
