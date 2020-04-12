@@ -1,8 +1,15 @@
 ---
 layout: article
 title: Climate Change Refugees - Who, Where and How?
-description: The United Nations define refugees as people feeling conflict or persecution, and in recent years refugees from Syria, Afghanistan and Iraq fleeing war have dominated the news. However, there is a form of conflict that is often overlooked; between the earth’s rapidly changing climate and people that live there. Climate change is responsible for an untold amount of refugees who are forced to flee their homeland due to inhospitable environments.
-date: 2018-07-17
+description: The United Nations define refugees as people feeling conflict or
+  persecution, and in recent years refugees from Syria, Afghanistan and Iraq
+  fleeing war have dominated the news. However, there is a form of conflict that
+  is often overlooked; between the earth’s rapidly changing climate and people
+  that live there. Climate change is responsible for an untold amount of
+  refugees who are forced to flee their homeland due to inhospitable
+  environments.
+image: https://frontier.ac.uk/Uploads/images/Climate-Refugees-1.jpg
+date: 2018-07-17T00:00:00.000Z
 ---
 
 _Originally written for [Frontier](https://frontier.ac.uk/blog/2018/07/17/climate-change-refugees---who-where-and-how)_
