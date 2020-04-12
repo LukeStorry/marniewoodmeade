@@ -17,6 +17,6 @@ If you would like to get in contact about any of my writing please don't hesitat
 <br>
 <br>
 
-<img src="/assets/images/beachwalk.jpg" alt="Photo of me on a beach"/>
+<img src="/assets/images/beachwalk.jpg?nf_resize=fit&w=800" alt="Photo of me on a beach"/>
 
 </div>
