@@ -1,8 +1,11 @@
 ---
 layout: article
 title: The Rise of Sustainable Fashion
-description: Article for the Huffington Post - There needs to be an industry-wide movement to significantly reduce the waste that the textile industry produces.
-date: 2018-07-20
+description: Article for the Huffington Post - There needs to be an
+  industry-wide movement to significantly reduce the waste that the textile
+  industry produces.
+image: https://img.huffingtonpost.com/asset/5b51c1c919000027004fcda9.jpeg?ops=scalefit_630_noupscale
+date: 2018-07-20T00:00:00.000Z
 ---
 
 _Originally written for [Huffington Post](https://www.huffingtonpost.co.uk/entry/the-rise-of-sustainable-fashion_uk_5b51ab82e4b013392edfa29d)_
