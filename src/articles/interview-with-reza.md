@@ -5,6 +5,7 @@ description: As part of the work I did for Frontier, I got the opportunity to
   talk to Reza about his life, successes and the importance of giving refugees
   the ability to tell their own story.
 display_order: 0
+image: https://frontier.ac.uk/Uploads/images/COVER_NATGEO.jpg
 date: 2018-08-23T09:00:00.000Z
 ---
 
