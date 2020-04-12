@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: lukestorry/marniewoodmeade
+  name: git-gateway
 media_folder: "assets/images"
 collections:
   - name: "pages"
