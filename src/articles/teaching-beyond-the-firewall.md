@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Teaching Beyond the Firewall
-description: "Teaching comes with it's challenges but teaching with an 8 hour
+description: "Teaching comes with its challenges but teaching with an 8 hour
   time difference, unreliable wifi and a firewall is a whole different level.
   This article outlines how these challenges can be overcome with both
   synchronous and a synchronous teaching methods. "
