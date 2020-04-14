@@ -12,7 +12,7 @@ Hi! My name is Marnie and welcome to my website. Here you will find examples of 
 
 Over the past three years, I have cultivated my writing and researching ability working for a number of small NGOs and the University of Bristol so that my writing is accessible to a multitude of people. My writing has been published by The Huffington Post, along with health websites, academic blogs and conferences. My most popular article has also received over 15,000 views. 
 
-My research largely focuses on sex education and consent and would like to continue this vein of research looking at the impact of technology. I am currently undertaking a Masters in International Development which I am enjoying immensely. 
+My research largely focuses on sex education and consent and I would like to continue this vein of research looking at the impact of technology. I am currently undertaking a Masters in International Development which I am enjoying immensely. 
 
 If you would like to contact me about any of my writing, email me or message me on LinkedIn. 
 
