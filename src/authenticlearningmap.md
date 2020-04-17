@@ -33,8 +33,9 @@ no-margin: true
     border-color: grey;
 }
 .mapboxgl-popup-content h6 {
+    font-size: 150%;
     text-align: center;
-    margin-bottom: 0;
+    margin: 0;
 }
 </style>
 
