@@ -14,35 +14,7 @@ map.on("load", addAuthenticLearningPoints);
 map.on("load", add3dBuildingLayer);
 map.on("click", (e) => console.log(e.lngLat.toArray().join(',')));
 
-const mapDataToGeoFeatures = data => ({
-  type: "FeatureCollection",
-  features: data.map(location => ({
-    type: "Feature",
-    properties: {
-      name: location.title,
-      html: `<h6>${location.title}</h6>
-              ${generateHtml(location.children)}`,
-      size: location.children.flat().length + 2
-    },
-    geometry: {
-      type: "Point",
-      coordinates: location.text
-        .split(",")
-        .map(parseFloat)
-        .sort()
-    }
-  }))
-});
-
 async function addAuthenticLearningPoints() {
-  let authenticLearningFeatures = await fetch(
-    "/assets/authenticlearningdata.json"
-  )
-    .then(r => r.text())
-    .then(JSON.parse)
-    .then(o => JSON.parse(o.data))
-    .then(mapDataToGeoFeatures);
-
   console.log("GeoJson: ", authenticLearningFeatures);
 
   map.addSource("authentic-learning-points", {

@@ -12,18 +12,31 @@ no-margin: true
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
 
-<script> const exports = {}; </script>
-<script src='https://unpkg.com/nested-accordion@1.2.4/dist/generateHtml.js'></script>
+<script> 
+const exports = {}; 
+let authenticLearningFeatures = {% authentic_learning_geojson %};
+</script>
 <script src='/assets/authenticlearningmap.js'></script>
+
+{% accordion_styles %}
 
 <style>
 .mapboxgl-popup {
     max-width: 40rem !important;
     width: 100%;
 }
+.header, .header.active {
+    padding: 0.5rem;
+    margin-top: 0;
+} 
+.contents{
+    padding: 0.5rem 1.7rem 0.5rem 1.7rem;
+    margin-bottom: 0.2rem;
+}
 .mapboxgl-popup-close-button {
     height: 1rem;
-    padding-right: 1rem;
+    background-color: ##ffcece;
+    padding: 2px;
 }
 .mapboxgl-popup-content{
     max-height: 60vh;
@@ -33,10 +46,8 @@ no-margin: true
     border-color: grey;
 }
 .mapboxgl-popup-content h6 {
-    font-size: 150%;
+    font-size: 160%;
     text-align: center;
     margin: 0;
 }
 </style>
-
-{% accordion_styles %}
