@@ -34,7 +34,7 @@ module.exports = function (eleventyConfig) {
         name: location.title,
         html: `<h6>${location.title}</h6>
         ${nestedAccordion.create(location.children)}`,
-        size: location.children.flat().length + 2,
+        size: (location.children?.flat().length || 0) + 2,
       },
       geometry: {
         type: "Point",
