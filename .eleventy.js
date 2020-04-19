@@ -27,24 +27,28 @@ module.exports = function (eleventyConfig) {
     return nestedAccordion.create(data);
   });
 
-  eleventyConfig.addShortcode("authentic_learning_geojson", () =>
-    JSON.stringify({
+  eleventyConfig.addShortcode("authentic_learning_geojson", () => {
+    const createFeature = (location) => ({
+      type: "Feature",
+      properties: {
+        name: location.title,
+        html: `<h6>${location.title}</h6>
+        ${nestedAccordion.create(location.children)}`,
+        size: location.children.flat().length + 2,
+      },
+      geometry: {
+        type: "Point",
+        coordinates: location.text.split(",").map(parseFloat).sort(),
+      },
+    });
+
+    const geojson = {
       type: "FeatureCollection",
-      features: JSON.parse(authenticLearningDataFile.data).map((location) => ({
-        type: "Feature",
-        properties: {
-          name: location.title,
-          html: `<h6>${location.title}</h6>
-      ${nestedAccordion.create(location.children)}`,
-          size: location.children.flat().length + 2,
-        },
-        geometry: {
-          type: "Point",
-          coordinates: location.text.split(",").map(parseFloat).sort(),
-        },
-      })),
-    })
-  );
+      features: JSON.parse(authenticLearningDataFile.data).map(createFeature),
+    };
+
+    return JSON.stringify(geojson);
+  });
 
   eleventyConfig.addShortcode(
     "accordion_styles",
