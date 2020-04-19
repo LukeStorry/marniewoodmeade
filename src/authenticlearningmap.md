@@ -35,8 +35,8 @@ let authenticLearningFeatures = {% authentic_learning_geojson %};
 }
 .mapboxgl-popup-close-button {
     height: 1rem;
-    background-color: ##ffcece;
-    padding: 2px;
+    background-color: #ffcece;
+    padding: 5px;
 }
 .mapboxgl-popup-content{
     max-height: 60vh;
