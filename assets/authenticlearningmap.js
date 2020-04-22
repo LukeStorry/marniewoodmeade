@@ -6,40 +6,47 @@ var map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v11",
   center: [-2.603, 51.4584],
   zoom: 15,
-  pitch: 45
+  pitch: 45,
 });
 
 map.on("load", removePoiLabels);
 map.on("load", addAuthenticLearningPoints);
 map.on("load", add3dBuildingLayer);
-map.on("click", (e) => console.log(e.lngLat.toArray().join(',')));
+map.on("click", (e) => console.log(e.lngLat.toArray().join(",")));
 
 async function addAuthenticLearningPoints() {
-  console.log("GeoJson: ", authenticLearningFeatures);
+  console.log("GeoJson: ", {
+    authenticLearningFeatures,
+    count: authenticLearningFeatures.features.length,
+    totalSize: authenticLearningFeatures.features.reduce(
+      (s, f) => s + f.properties.size,
+      0
+    ),
+  });
 
   map.addSource("authentic-learning-points", {
     type: "geojson",
-    data: authenticLearningFeatures
+    data: authenticLearningFeatures,
   });
   map.addLayer({
     id: "authentic-learning-text",
     type: "symbol",
     source: "authentic-learning-points",
     layout: {
-      "text-field": ["get", "name"]
-    }
+      "text-field": ["get", "name"],
+    },
   });
-  map.on("click", "authentic-learning-text", function(e) {
+  map.on("click", "authentic-learning-text", function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     new mapboxgl.Popup()
       .setLngLat(coordinates)
       .setHTML(e.features[0].properties.html)
       .addTo(map);
   });
-  map.on("mouseenter", "authentic-learning-text", function() {
+  map.on("mouseenter", "authentic-learning-text", function () {
     map.getCanvas().style.cursor = "pointer";
   });
-  map.on("mouseleave", "authentic-learning-text", function() {
+  map.on("mouseleave", "authentic-learning-text", function () {
     map.getCanvas().style.cursor = "";
   });
 
@@ -57,8 +64,8 @@ async function addAuthenticLearningPoints() {
           0,
           0,
           15,
-          1
-        ]
+          1,
+        ],
         // "heatmap-color": [
         //   "interpolate",
         //   ["linear"],
@@ -72,14 +79,14 @@ async function addAuthenticLearningPoints() {
         //   1,
         //   "rgb(162,10,28)"
         // ]
-      }
+      },
     },
     "waterway-label"
   );
 }
 
 function removePoiLabels() {
-  map.style.stylesheet.layers.forEach(layer => {
+  map.style.stylesheet.layers.forEach((layer) => {
     if (layer.id === "poi-label") {
       map.removeLayer(layer.id);
     }
@@ -105,15 +112,15 @@ function add3dBuildingLayer() {
           14.5,
           0,
           15.5,
-          ["get", "height"]
-        ]
-      }
+          ["get", "height"],
+        ],
+      },
     },
     // Insert the layer beneath any symbol layer.
     map
       .getStyle()
       .layers.find(
-        layer => layer.type === "symbol" && layer.layout["text-field"]
+        (layer) => layer.type === "symbol" && layer.layout["text-field"]
       ).id
   );
 }
