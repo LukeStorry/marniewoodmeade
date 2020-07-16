@@ -24,6 +24,8 @@ let authenticLearningFeatures = {% authentic_learning_geojson %};
 .mapboxgl-popup {
     max-width: 40rem !important;
     width: 100%;
+    min-width: 30vh
+    max-width: 60vh
 }
 .mapboxgl-popup-close-button {
     height: 1rem;
@@ -31,7 +33,6 @@ let authenticLearningFeatures = {% authentic_learning_geojson %};
     padding: 5px;
 }
 .mapboxgl-popup-content{
-    min-width: 30vh
     max-height: 60vh;
     overflow-y: scroll;
     border-style: solid;
@@ -39,5 +40,6 @@ let authenticLearningFeatures = {% authentic_learning_geojson %};
 }
 .mapboxgl-popup-content h6 {
     font-size: 160%;
+    margin: 0.5rem;
 }
 </style>
