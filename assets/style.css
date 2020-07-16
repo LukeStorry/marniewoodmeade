@@ -99,6 +99,7 @@ nav a:hover {
   z-index: 101;
   background-color: #fffa;
   border-radius: 1rem;
+  backdrop-filter: saturate(200%) blur(3px);
 }
 
 .highlight {
