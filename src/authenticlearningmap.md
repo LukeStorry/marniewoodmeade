@@ -25,29 +25,19 @@ let authenticLearningFeatures = {% authentic_learning_geojson %};
     max-width: 40rem !important;
     width: 100%;
 }
-.header, .header.active {
-    padding: 0.5rem;
-    margin-top: 0;
-} 
-.contents{
-    padding: 0.5rem 1.7rem 0.5rem 1.7rem;
-    margin-bottom: 0.2rem;
-}
 .mapboxgl-popup-close-button {
     height: 1rem;
     background-color: #ffcece;
     padding: 5px;
 }
 .mapboxgl-popup-content{
+    min-width: 30vh
     max-height: 60vh;
-    padding-bottom: 0;
     overflow-y: scroll;
     border-style: solid;
     border-color: grey;
 }
 .mapboxgl-popup-content h6 {
     font-size: 160%;
-    text-align: center;
-    margin: 0;
 }
 </style>
