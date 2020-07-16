@@ -1775,9 +1775,9 @@ lodash.isfinite@^3.3.2:
   integrity sha1-+4m2WpqAKBgz8LdHizpRBPiY67M=
 
 lodash@^4.17.10, lodash@^4.17.15, lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 longest@^1.0.1:
   version "1.0.1"
@@ -1989,10 +1989,10 @@ neo-async@^2.6.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-nested-accordion@1.2.10:
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/nested-accordion/-/nested-accordion-1.2.10.tgz#0faaefccbad9c3734c41d8c984b8b085261e017e"
-  integrity sha512-WNcGjSxiX8sFT7lj0jiBZfwhxsHmoN04/7PHqPXYVVOvQ236uqafMKzXkETIvw2WRP1UZxcfr2ASwvpI0/KibA==
+nested-accordion@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/nested-accordion/-/nested-accordion-2.0.1.tgz#312322228db7b5b259297bda3fc09aa1e5dfea5d"
+  integrity sha512-ojmad5w4fgmPd1gEgA3+KJEpOEOPGmnMrtOxs3BddZfMhxChjMvS6QFQlLGWeuwfR+ScxWdQwo+5ZqVdTcojqw==
 
 nopt@~4.0.1:
   version "4.0.1"
