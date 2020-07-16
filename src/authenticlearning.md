@@ -4,7 +4,7 @@ title: Authentic Learning at UoB
 description: Here you can see which departments and courses offer Authentic-Learning based teaching at the University of Bristol, in a simple drop-down menu format.
 ---
 {% accordion_styles %}
-<style>  p { font-size: 100%;} </style>
+<style>  p { font-size: 80%;} </style>
 <div class="card">
 
 #### Authentic Learning at the University of Bristol
