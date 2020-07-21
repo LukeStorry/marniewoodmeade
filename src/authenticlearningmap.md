@@ -5,41 +5,16 @@ description: An interactive heat-map of the University of Bristol, showing areas
 no-margin: true
 ---
 
+<style>
+    iframe {
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+</style>
+
 #### Authentic Learning at the University of Bristol
 
-<div id='map' style='width: 100%; height: 100vh;'></div>
-
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
-
-<script> 
-const exports = {}; 
-let authenticLearningFeatures = {% authentic_learning_geojson %};
-</script>
-<script src='/assets/authenticlearningmap.js'></script>
-
-{% accordion_styles %}
-
-<style>
-.mapboxgl-popup {
-    max-width: 40rem !important;
-    width: 100%;
-    min-width: 30vh
-    max-width: 60vh
-}
-.mapboxgl-popup-close-button {
-    height: 1rem;
-    background-color: #ffcece;
-    padding: 5px;
-}
-.mapboxgl-popup-content{
-    max-height: 60vh;
-    overflow-y: scroll;
-    border-style: solid;
-    border-color: grey;
-}
-.mapboxgl-popup-content h6 {
-    font-size: 160%;
-    margin: 0.5rem;
-}
-</style>
+<div>
+    <iframe  src="https://authenticlearningatbristoluni.netlify.app/map"></iframe> 
+</div>
