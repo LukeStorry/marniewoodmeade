@@ -13,8 +13,6 @@ no-margin: true
     }
 </style>
 
-#### Authentic Learning at the University of Bristol
-
 <div>
     <iframe  src="https://authenticlearningatbristoluni.netlify.app/map"></iframe> 
 </div>
