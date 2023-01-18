@@ -1,16 +1,14 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main className={''}>
+      <div className={'text-3xl bg-amber-800'}>
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          <code className={''}>app/page.tsx</code>
         </p>
         <div>
           <a
@@ -22,7 +20,7 @@ export default function Home() {
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
-              className={styles.vercelLogo}
+              className={''}
               width={100}
               height={24}
               priority
@@ -31,24 +29,24 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.center}>
+      <div className={''}>
         <Image
-          className={styles.logo}
+          className={''}
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
           priority
         />
-        <div className={styles.thirteen}>
+        <div className={''}>
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
       </div>
 
-      <div className={styles.grid}>
+      <div className={''}>
         <a
           href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
+          className={''}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -62,7 +60,7 @@ export default function Home() {
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
+          className={''}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -74,7 +72,7 @@ export default function Home() {
 
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
+          className={''}
           target="_blank"
           rel="noopener noreferrer"
         >
