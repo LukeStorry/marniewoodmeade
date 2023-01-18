@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className={''}>
-      <div className={'text-3xl bg-amber-800'}>
+      <div className={'bg-amber-800 text-sm'}>
         <p>
           Get started by editing&nbsp;
           <code className={''}>app/page.tsx</code>
