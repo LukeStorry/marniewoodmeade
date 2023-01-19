@@ -1,18 +1,29 @@
 import './globals.css'
 
+import { Inter } from '@next/font/google'
+const inter = Inter({ subsets: ['latin'] })
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="en" className={inter.className}>
       <head />
-      <body>{children}</body>
+      <body className="mx-auto max-w-md bg-gray-200">
+        <header className="mx-auto max-w-md">
+          <h1 className="text-center text-xl">Marnie Woodemeade</h1>
+        </header>
+
+        <nav className="m-8 flex justify-between gap-3">
+          <ul> Page 1 </ul>
+          <ul> Page 2 </ul>
+          <ul> Page 3 </ul>
+        </nav>
+
+        {children}
+      </body>
     </html>
   )
 }
