@@ -18,16 +18,16 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="p-4">
-      <section className="items-center md:flex">
+    <main>
+      <section className="items-center p-4 md:flex">
         <div className="md:ml-auto">
-          <h1 className="break-words text-7xl font-thin">
+          <h1 className="break-words text-5xl font-thin md:text-7xl">
             Marnie <br /> Woodmeade
           </h1>
-          <h2 className="my-4 text-xl font-bold uppercase tracking-widest">
+          <h2 className="text-xl font-bold uppercase tracking-widest">
             Audio Producer
           </h2>
-          <p>
+          <p className="max-w-sm">
             I am an audio producer, writer and campaigner specialising in
             stories of social movements and extraordinary people.
           </p>
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="my-16 md:flex md:flex-row-reverse md:items-center md:justify-end">
+      <section className="p-4 md:flex md:flex-row-reverse md:items-center md:justify-end md:py-16">
         <div className="mx-auto">
           <h2>I&apos;ve learned from</h2>
           <ul className="list-disc pl-8 pb-12">
@@ -54,12 +54,12 @@ export default function Home() {
             <li> etc</li>
           </ul>
         </div>
-        <Image src={marnie_listening} className="max-w-sm" alt="" />
+        <Image src={marnie_listening} className="mx-auto max-w-xs" alt="" />
       </section>
 
-      <section className="my-24">
+      <section className="py-8 pl-4 md:py-24">
         <h2>Proud to have worked with</h2>
-        <div className="flex items-center gap-8 overflow-y-scroll">
+        <div className="flex gap-8 overflow-y-scroll">
           {[
             { img: logo_transmission, alt: 'Transmission Roundhouse' },
             { img: logo_glasto, alt: 'Glastonbury Festival' },
@@ -68,21 +68,26 @@ export default function Home() {
             { img: logo_lyrix_organix, alt: 'Lyrix Organix' },
             { img: logo_sis, alt: 'Self Injury Support' },
           ].map(({ img, alt }) => (
-            <Image
-              src={img}
-              alt={alt}
-              className="max-h-24"
-              title={alt}
+            <a
               key={alt}
-            />
+              className="flex h-24 w-24 flex-none items-center md:h-32 md:w-32"
+            >
+              <Image
+                src={img}
+                alt={alt}
+                className="max-h-full w-full object-cover"
+                title={alt}
+                key={alt}
+              />
+            </a>
           ))}
         </div>
       </section>
 
-      <section className="my-32">
-        <div className="flex">
+      <section className="py-6 pl-4 md:py-32">
+        <div className="mb-8 sm:flex">
           <h2>Podcasts</h2>
-          <p className="ml-24 mt-4 max-w-sm">
+          <p className="mt-4 max-w-sm sm:ml-24">
             I take podcasts all the way from conception through to sound design,
             editing and mixing
           </p>
@@ -124,7 +129,7 @@ export default function Home() {
             },
           ].map(({ img, alt, link, text }) =>
             text != undefined ? (
-              <p className="-mr-8 -rotate-90" key={text}>
+              <p className="-mr-8 -rotate-90 text-sm" key={text}>
                 {text}
               </p>
             ) : (
@@ -132,11 +137,15 @@ export default function Home() {
                 target="_blank"
                 href={link}
                 key={alt}
-                className="h-32 w-32 flex-none"
                 title={alt}
                 rel="noreferrer"
+                className="h-20 w-20 flex-none md:h-32 md:w-32"
               >
-                <Image src={img} alt={alt} />
+                <Image
+                  src={img}
+                  alt={alt}
+                  className="max-h-full w-full object-cover"
+                />
               </a>
             )
           )}
