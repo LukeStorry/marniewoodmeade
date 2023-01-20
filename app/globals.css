@@ -9,6 +9,12 @@
   h4,
   h5,
   h6 {
-    font-family: var(--header-font);
+    font-family: var(--header-font), serif;
+    font-size: xx-large;
+    font-weight: lighter;
+  }
+  * {
+    font-family: var(--body-font), sans-serif;
+    font-weight: light;
   }
 }
