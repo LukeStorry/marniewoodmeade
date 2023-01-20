@@ -1,7 +1,17 @@
 import './globals.css'
+import { Indie_Flower, Roboto_Mono } from '@next/font/google'
 
-import { Inter } from '@next/font/google'
-const inter = Inter({ subsets: ['latin'] })
+const headerFont = Roboto_Mono({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--header-font',
+})
+
+const bodyFont = Indie_Flower({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--body-font',
+})
 
 export default function RootLayout({
   children,
@@ -9,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`${headerFont.variable} ${bodyFont.variable}`}>
       <head />
       <body className="mx-auto mt-6 max-w-md bg-gray-200">
         <header className="mx-auto max-w-md">
