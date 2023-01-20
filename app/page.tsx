@@ -44,10 +44,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className=" md:flex md:flex-row-reverse md:items-center md:justify-end">
+
+      <section className="my-16 md:flex md:flex-row-reverse md:items-center md:justify-end">
         <div className="mx-auto">
           <h2>I&apos;ve learned from</h2>
-          <ul className="list-disc p-4">
+          <ul className="list-disc pl-8 pb-12">
             <li> uni</li>
             <li> training</li>
             <li> etc</li>
@@ -55,13 +56,91 @@ export default function Home() {
         </div>
         <Image src={marnie_listening} className="max-w-sm" alt="" />
       </section>
-      <section className=" ">
-      <Image src={marnie_lean_3} className="-mt-10" alt="" />
+
+      <section className="my-24">
+        <h2>Proud to have worked with</h2>
+        <div className="flex items-center gap-8 overflow-y-scroll">
+          {[
+            { img: logo_transmission, alt: 'Transmission Roundhouse' },
+            { img: logo_glasto, alt: 'Glastonbury Festival' },
+            { img: logo_broccoli, alt: 'Broccoli Productions' },
+            { img: logo_great_escape, alt: 'The Great Escape Festival' },
+            { img: logo_lyrix_organix, alt: 'Lyrix Organix' },
+            { img: logo_sis, alt: 'Self Injury Support' },
+          ].map(({ img, alt }) => (
+            <Image
+              src={img}
+              alt={alt}
+              className="max-h-24"
+              title={alt}
+              key={alt}
+            />
+          ))}
+        </div>
       </section>
-      <section className="">
-        <h2>Podcasts</h2>
-        <p>Work in Progress</p>
-        <p>Work in Progress</p>
+
+      <section className="my-32">
+        <div className="flex">
+          <h2>Podcasts</h2>
+          <p className="ml-24 mt-4 max-w-sm">
+            I take podcasts all the way from conception through to sound design,
+            editing and mixing
+          </p>
+        </div>
+        <div className="flex items-center gap-5 overflow-y-scroll">
+          {[
+            { text: 'Produced' },
+            {
+              alt: 'Gentle Activism',
+              img: pod_gentle_activism,
+              link: 'https://open.spotify.com/show/6rI3OowfoPlLBchxglyI53',
+            },
+            {
+              alt: 'Glastonbury: The Common People',
+              img: pod_glasto_commons,
+              link: 'https://audioboom.com/channels/5083105',
+            },
+            {
+              img: pod_tell_dem,
+              alt: 'Tell Dem',
+              link: 'https://audioboom.com/channels/5083828',
+            },
+            {
+              alt: 'Backstage At The Roundhouse',
+              img: pod_backstage_roundhouse,
+              link: 'https://audioboom.com/channels/5071120',
+            },
+            { text: 'Recorded' },
+            {
+              alt: 'Table Manners with Jessie and Lennie Ware',
+              img: pod_table_manners,
+              link: 'https://shows.acast.com/tablemanners',
+            },
+            { text: 'Supported' },
+            {
+              alt: 'UnReality',
+              img: pod_unreality,
+              link: 'https://audioboom.com/channels/5093481',
+            },
+          ].map(({ img, alt, link, text }) =>
+            text != undefined ? (
+              <p className="-mr-8 -rotate-90" key={text}>
+                {text}
+              </p>
+            ) : (
+              <a
+                target="_blank"
+                href={link}
+                key={alt}
+                className="h-32 w-32 flex-none"
+                title={alt}
+                rel="noreferrer"
+              >
+                <Image src={img} alt={alt} />
+              </a>
+            )
+          )}
+        </div>
       </section>
     </main>
   )
