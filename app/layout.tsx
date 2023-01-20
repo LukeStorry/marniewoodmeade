@@ -17,7 +17,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${headerFont.variable} ${bodyFont.variable}`}>
+    <html
+      lang="en"
+      className={`${headerFont.variable} ${bodyFont.variable} md:text-lg`}
+    >
       <head />
       <body className="mx-auto max-w-5xl bg-[#f4ecc4]  text-[#5e4626]">
         {children}

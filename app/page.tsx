@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="p-4 md:flex md:flex-row-reverse md:items-center md:justify-end md:py-16">
+      <section className="p-4 md:flex md:flex-row-reverse md:items-center md:justify-end">
         <div className="mx-auto">
           <h2>I&apos;ve learned from</h2>
           <ul className="list-disc pl-8 pb-12">
@@ -57,9 +57,9 @@ export default function Home() {
         <Image src={marnie_listening} className="mx-auto max-w-xs" alt="" />
       </section>
 
-      <section className="py-8 pl-4 md:py-24">
+      <section className="py-8 pl-4 md:py-12">
         <h2>Proud to have worked with</h2>
-        <div className="flex gap-8 overflow-y-scroll">
+        <div className=" mt-4 flex gap-8 overflow-y-scroll">
           {[
             { img: logo_transmission, alt: 'Transmission Roundhouse' },
             { img: logo_glasto, alt: 'Glastonbury Festival' },
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-6 pl-4 md:py-32">
+      <section className="py-6 pl-4 md:py-12">
         <div className="mb-8 sm:flex">
           <h2>Podcasts</h2>
           <p className="mt-4 max-w-sm sm:ml-24">

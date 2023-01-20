@@ -12,11 +12,9 @@
     font-family: var(--header-font), serif;
     font-size: 2rem;
     font-weight: 100;
-    margin-bottom: 2rem;
   }
   * {
     font-family: var(--body-font), sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
   }
 }
