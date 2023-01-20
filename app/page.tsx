@@ -19,16 +19,20 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="p-4">
-      <section className="md:flex">
+      <section className="items-center md:flex">
         <div className="md:ml-auto">
-          <h1 className="text-7xl">Marnie Woodmeade</h1>
-          <p className="my-4 capitalize">Audio Producer</p>
+          <h1 className="break-words text-7xl font-thin">
+            Marnie <br /> Woodmeade
+          </h1>
+          <h2 className="my-4 text-xl font-bold uppercase tracking-widest">
+            Audio Producer
+          </h2>
           <p>
             I am an audio producer, writer and campaigner specialising in
             stories of social movements and extraordinary people.
           </p>
         </div>
-        <div className="m-12 max-w-sm">
+        <div className="m-12 mx-auto max-w-sm">
           <div className="relative m-2 aspect-[3/1] overflow-hidden">
             <Image src={marnie_lean_1} className="-mt-1" alt="" />
           </div>
@@ -40,10 +44,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="items-center justify-around md:flex md:flex-row-reverse">
-        <div>
-          <h2 className="text-lg">I've learned from</h2>
-          <ul>
+      <section className=" md:flex md:flex-row-reverse md:items-center md:justify-end">
+        <div className="mx-auto">
+          <h2>I&apos;ve learned from</h2>
+          <ul className="list-disc p-4">
             <li> uni</li>
             <li> training</li>
             <li> etc</li>
@@ -51,13 +55,11 @@ export default function Home() {
         </div>
         <Image src={marnie_listening} className="max-w-sm" alt="" />
       </section>
-      <section className="m-6 ">
-        <h2 className="text-lg">Proud to have worked with</h2>
-        <p>Work in Progress</p>
-        <p>Work in Progress</p>
+      <section className=" ">
+      <Image src={marnie_lean_3} className="-mt-10" alt="" />
       </section>
-      <section className="m-6">
-        <h2 className="text-lg">Podcasts</h2>
+      <section className="">
+        <h2>Podcasts</h2>
         <p>Work in Progress</p>
         <p>Work in Progress</p>
       </section>
