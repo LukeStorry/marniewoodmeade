@@ -1,3 +1,5 @@
+'use client'
+
 import { PodcastInfo } from '@config'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -16,23 +18,18 @@ export const PodcastInfoRow = ({
     id={id}
     key={id}
     className={
-      'flex flex-col items-center px-4 my-6 ' +
-      (index % 2 ? ' sm:flex-row-reverse' : ' sm:flex-row sm:text-right')
+      'flex flex-col items-center px-4 my-6 target:motion-safe:animate-highlight ' +
+      (index % 2 ? ' sm:flex-row-reverse ' : ' sm:flex-row sm:text-right ')
     }
   >
     <div className="w-full sm:w-1/2 sm:pb-16">
-      <Link href={'/podcasts#' + id}>
+      <a href={'/podcasts#' + id}>
         <h2>{title}</h2>
-      </Link>
+      </a>
       <p>{description}</p>
       <p className="mt-3 italic">{contribution}</p>
-      <Link
-        className="hover:underline"
-        href={link}
-        target={'_blank'}
-        title={title}
-      >
-        See more {'>'}
+      <Link className="pt-6 hover:underline" href={link} target={'_blank'}>
+        See more
       </Link>
     </div>
     <div className="m-8 max-sm:w-full">

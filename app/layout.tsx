@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${headerFont.variable} ${bodyFont.variable} md:text-lg`}
+      className={`${headerFont.variable} ${bodyFont.variable} scroll-smooth md:text-lg`}
     >
       <head />
       <body className="mx-auto max-w-5xl bg-[#f4ecc4]  text-[#5e4626]">
