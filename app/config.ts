@@ -12,7 +12,7 @@ import pod_tell_dem from '@images/pod_tell_dem.png'
 import pod_unreality from '@images/pod_unreality.png'
 import { StaticImageData } from 'next/image'
 
-type ImageInfo = {
+export type ImageInfo = {
   title: string
   image: StaticImageData
   link: string
