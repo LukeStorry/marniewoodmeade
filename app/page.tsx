@@ -1,4 +1,4 @@
-import { AnchorImageSlider, LeaningBarPics } from './components'
+import { AnchorImageSlider } from './components'
 import { PODCASTS, WORKED_WITH } from '@config'
 import marnie_listening from '@images/marnie_listening.jpg'
 import Image from 'next/image'
@@ -6,24 +6,6 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main>
-      <section className="mt-4 items-center p-4 md:flex">
-        <div className="md:ml-auto">
-          <h1 className="break-words text-5xl font-thin md:text-7xl">
-            Marnie <br /> Woodmeade
-          </h1>
-          <h2 className="text-xl font-bold uppercase tracking-widest">
-            Audio Producer
-          </h2>
-          <p className="max-w-sm">
-            I am an audio producer, writer and campaigner specialising in
-            stories of social movements and extraordinary people.
-          </p>
-        </div>
-        <div className="m-8 mx-auto max-w-sm">
-          <LeaningBarPics />
-        </div>
-      </section>
-
       <section className="p-4 md:flex md:flex-row-reverse md:items-center md:justify-end md:p-8">
         <div className="mx-auto">
           <h2>I&apos;ve learned from</h2>

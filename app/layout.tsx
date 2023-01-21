@@ -1,3 +1,4 @@
+import { LeaningBarPics } from './components'
 import './globals.css'
 import { Genos, Glory } from '@next/font/google'
 
@@ -23,6 +24,23 @@ export default function RootLayout({
     >
       <head />
       <body className="mx-auto max-w-5xl bg-[#f4ecc4]  text-[#5e4626]">
+        <header className="mt-4 items-center p-4 md:flex">
+          <div className="md:ml-auto">
+            <h1 className="break-words text-5xl font-thin md:text-7xl">
+              Marnie <br /> Woodmeade
+            </h1>
+            <h2 className="text-xl font-bold uppercase tracking-widest">
+              Audio Producer
+            </h2>
+            <p className="max-w-sm">
+              I am an audio producer, writer and campaigner specialising in
+              stories of social movements and extraordinary people.
+            </p>
+          </div>
+          <div className="m-8 mx-auto max-w-sm">
+            <LeaningBarPics />
+          </div>
+        </header>
         {children}
       </body>
     </html>
