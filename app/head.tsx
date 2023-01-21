@@ -1,3 +1,5 @@
+const DESCRIPTION =
+  'I am an audio producer, writer and campaigner specialising in stories of social movements and extraordinary people.'
 export default function Head() {
   return (
     <>
@@ -6,23 +8,19 @@ export default function Head() {
 
       <link rel="icon" href="/favicon.ico" />
       <title>Marnie Woodmeade</title>
+      <meta name="description" content={DESCRIPTION} />
 
+      <meta property="og:title" content="Marnie Woodmeade" />
+      <meta property="og:description" content={DESCRIPTION} />
+      <meta property="og:site_name" content="Marnie Woodmeade" />
       <meta
-        name="description"
-        content="Welcome to my homepage, blog &amp; portfolio."
-      />
-      <meta
-        property="og:description"
-        content="Welcome to my homepage, blog &amp; portfolio."
+        property="og:image"
+        content="public/images/marnie_lean_1.jpeg"
+        key="ogimage"
       />
 
       <meta name="twitter:creator" content="@marnie_wm" />
-      <meta
-        name="twitter:card"
-        content="Welcome to my homepage, blog &amp; portfolio."
-      />
-      <meta property="og:site_name" content="Marnie Woodmeade" />
-      <meta property="og:title" content="Marnie Woodmeade" />
+      <meta name="twitter:card" content={DESCRIPTION} />
     </>
   )
 }
