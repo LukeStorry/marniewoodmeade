@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className="mx-auto max-w-5xl bg-[#f4ecc4]  text-[#5e4626]">
         <header className="mt-4 items-center p-4 md:flex">
           <div className="md:ml-auto">
-            <h1 className="break-words text-5xl font-thin md:text-7xl">
+            <h1 className="text-5xl font-thin md:text-7xl">
               Marnie <br /> Woodmeade
             </h1>
             <h2 className="text-xl font-bold uppercase tracking-widest">

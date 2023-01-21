@@ -10,8 +10,15 @@ import pod_glasto_commons from '@images/pod_glasto_commons.png'
 import pod_table_manners from '@images/pod_table_manners.png'
 import pod_tell_dem from '@images/pod_tell_dem.png'
 import pod_unreality from '@images/pod_unreality.png'
+import { StaticImageData } from 'next/image'
 
-export const WORKED_WITH = [
+type ImageInfo = {
+  title: string
+  image: StaticImageData
+  link: string
+}
+
+export const WORKED_WITH: ImageInfo[] = [
   {
     title: 'Transmission Roundhouse',
     image: logo_transmission,
@@ -44,6 +51,14 @@ export const WORKED_WITH = [
   },
 ]
 
+
+export type PodcastInfo = ImageInfo & {
+  id: string
+  description: string
+  spotifyEpisodeId: string | undefined
+  contribution: string
+} 
+
 export const PODCASTS = {
   produced: [
     {
@@ -63,7 +78,7 @@ export const PODCASTS = {
         ' This is a long description about the podcast that has a title of Glastonbury: The Common People',
       image: pod_glasto_commons,
       link: 'https://audioboom.com/channels/5083105',
-      spotifyEpisodeId: undefined,
+      spotifyEpisodeId: '5eSJS63IGlsPFh8mlnKBaF',
       contribution: 'I did some things',
     },
     {
@@ -111,4 +126,6 @@ export const PODCASTS = {
       contribution: 'I did some things',
     },
   ],
-}
+// eslint-disable-next-line prettier/prettier
+} satisfies Record<string, PodcastInfo[]>;
+
