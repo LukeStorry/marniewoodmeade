@@ -65,41 +65,41 @@ export const PODCASTS = {
       id: 'gentle-activism',
       title: 'Gentle Activism',
       description:
-        ' This is a long description about the podcast that has a title of Gentle Activism',
+        'Gentle Activism uses the oral histories collected by the Women Listening to Women project to explore the history of Bristol Crisis Service for Women. We celebrate the power of empathy and listening as agents of radical change and contemplate the past, present and future challenges of running a service for women and girls that is intersectional and inclusive.',
       image: pod_gentle_activism,
-      link: 'https://open.spotify.com/show/6rI3OowfoPlLBchxglyI53',
+      link: 'https://www.selfinjurysupport.org.uk/blog/making-gentle-activism',
       spotifyEpisodeId: '22p1fGFTugohYRBo7lG3HO',
-      contribution: 'I did things',
+      contribution: 'The fact that an enormous amount of the raw content was so moving meant that editing was tough. I struggled with feeling like I was doing an injustice by choosing one segment over another. What did the world need to know from these women? This was a question I grappled with endlessly. Fortunately, we had a wonderful team of volunteers who had conducted the interviews and their feedback was invaluable. They were not just kind and generous, as so many of the people at Self Injury Support are, but also honest about their thoughts.',
     },
     {
       id: 'glasto-common-people',
       title: 'Glastonbury: The Common People',
       description:
-        ' This is a long description about the podcast that has a title of Glastonbury: The Common People',
+        'The Common People is a podcast unearthing stories from Glastonbury’s South East corner. Recorded during the 2022 edition of the festival, each episode takes you on a deep dive into one of the most popular late-night areas of the largest greenfield festival in the world.',
       image: pod_glasto_commons,
       link: 'https://audioboom.com/channels/5083105',
       spotifyEpisodeId: '5eSJS63IGlsPFh8mlnKBaF',
-      contribution: 'I did some things',
+      contribution: 'I produced it',
     },
     {
       id: 'telldem',
       title: 'Tell Dem',
       description:
-        ' This is a long description about the podcast that has a title of Tell Dem',
+        'TELL DEM is where global majority movers and shakers reflect and critique work that lies across our cultural spectrum, using it to unpack connected, contemporary issues and dissect the affairs rooted in our respective cultures.',
       image: pod_tell_dem,
       link: 'https://audioboom.com/channels/5083828',
       spotifyEpisodeId: '6OmYqjTYRvHZcwwLjSIQDV',
-      contribution: 'I did some things',
+      contribution: 'I produced it',
     },
     {
       id: 'backstage-at-the-roundhouse',
       title: 'Backstage At The Roundhouse',
       description:
-        ' This is a long description about the podcast that has a title of Backstage At The Roundhouse',
+        'A home for niche, innovative and groundbreaking audio-led content that champions the voices of underrepresented young creatives. The Roundhouse is a hub of inspiration where artists and emerging talent create extraordinary work and where young people can grow creatively as individuals. We believe in the power of creativity to change lives.',
       image: pod_backstage_roundhouse,
       link: 'https://audioboom.com/channels/5071120',
       spotifyEpisodeId: '6uUg0IIN8gC1k2HwMylBws',
-      contribution: 'I did some things',
+      contribution: 'I produced it for the past year',
     },
   ],
   recorded: [
@@ -107,11 +107,11 @@ export const PODCASTS = {
       id: 'table-manners',
       title: 'Table Manners with Jessie and Lennie Ware',
       description:
-        ' This is a long description about the podcast that has a title of Table Manners with Jessie and Lennie Ware',
+        'Jessie Ware hosts a podcast about food, family, and the beautiful art of having a chat, with a bit of help from her chef extraordinaire mum Lennie. Each week guests from music, culture and politics drop by for a bite and a bit of a natter.',
       image: pod_table_manners,
       link: 'https://shows.acast.com/tablemanners',
       spotifyEpisodeId: undefined,
-      contribution: 'I did some things',
+      contribution: 'I recorded it',
     },
   ],
   supported: [
@@ -119,11 +119,11 @@ export const PODCASTS = {
       id: 'unreality',
       title: 'UnReality',
       description:
-        ' This is a long description about the podcast that has a title of UnReality',
+        'Unreality exists where fact and fiction collide.        Let host Talia Augustidis guide you through four different stories; from dreams and fantasy to curated falsehoods, as each episode wavers precariously between the imagined and the truth.',
       image: pod_unreality,
       link: 'https://audioboom.com/channels/5093481',
       spotifyEpisodeId: undefined,
-      contribution: 'I did some things',
+      contribution: 'I supported Talia ...',
     },
   ],
 // eslint-disable-next-line prettier/prettier

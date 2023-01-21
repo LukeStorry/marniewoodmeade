@@ -26,10 +26,14 @@ export const PodcastInfoRow = ({
       <a href={'/podcasts#' + id}>
         <h2>{title}</h2>
       </a>
-      <p>{description}</p>
-      <p className="mt-3 italic">{contribution}</p>
-      <Link className="pt-6 hover:underline" href={link} target={'_blank'}>
-        See more
+      <p className="m-2 font-medium">{description}</p>
+      <p className="">{contribution}</p>
+      <Link
+        className="pt-6 italic hover:underline"
+        href={link}
+        target={'_blank'}
+      >
+        See more ➡️
       </Link>
     </div>
     <div className="m-8 max-sm:w-full">
