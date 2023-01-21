@@ -12,17 +12,19 @@ module.exports = {
     },
     extend: {
       animation: {
-        highlight: 'highlight 1s 1',
+        highlight: 'highlight 1s 2',
       },
       keyframes: {
         highlight: {
           '0%, 100%': {
             transform: 'scale(1)',
+            background: '#fff0',
             opacity: 0.8,
           },
           '50%': {
             color: 'black',
             transform: 'scale(1.1)',
+            background: '#fff3',
           },
         },
       },
