@@ -15,12 +15,12 @@ export default function Head() {
       <meta property="og:site_name" content="Marnie Woodmeade" />
       <meta
         property="og:image"
-        content="public/images/marnie_lean_1.jpeg"
+        content="https://marniewoodmeade.co.uk/images/marnie_lean_1.jpeg"
         key="ogimage"
       />
 
       <meta name="twitter:creator" content="@marnie_wm" />
-      <meta name="twitter:card" content={DESCRIPTION} />
+      <meta name="twitter:card" content="summary_large_image" />
     </>
   )
 }
