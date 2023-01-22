@@ -18,7 +18,7 @@ export const PodcastInfoRow = ({
     id={id}
     key={id}
     className={
-      'flex flex-col items-center px-4 my-6 target:motion-safe:animate-highlight ' +
+      'flex flex-col scroll-mt-24 items-center px-4 my-6 target:motion-safe:animate-highlight ' +
       (index % 2 ? ' sm:flex-row-reverse ' : ' sm:flex-row sm:text-right ')
     }
   >
