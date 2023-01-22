@@ -1,6 +1,7 @@
 import { LeaningBarPics } from './components'
 import './globals.css'
 import { Genos, Glory } from '@next/font/google'
+import Link from 'next/link'
 
 const headerFont = Genos({
   subsets: ['latin'],
@@ -27,7 +28,9 @@ export default function RootLayout({
         <header className="mt-4 items-center p-4 md:flex">
           <div className="md:ml-auto">
             <h1 className="text-5xl font-thin md:text-7xl">
-              Marnie <br /> Woodmeade
+              <Link href="/">
+                Marnie <br /> Woodmeade
+              </Link>
             </h1>
             <h2 className="text-xl font-bold uppercase tracking-widest">
               Audio Producer
