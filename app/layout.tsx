@@ -25,9 +25,9 @@ export default function RootLayout({
     >
       <head />
       <body className="mx-auto max-w-5xl bg-[#f4ecc4]  text-[#5e4626]">
-        <header className="mt-4 items-center p-4 md:flex">
+        <header className="mt-4 flex items-center gap-5 p-4">
           <div className="md:ml-auto">
-            <h1 className="text-5xl font-thin md:text-7xl">
+            <h1 className="text-4xl font-thin md:text-7xl">
               <Link href="/">
                 Marnie <br /> Woodmeade
               </Link>
@@ -40,7 +40,7 @@ export default function RootLayout({
               stories of social movements and extraordinary people.
             </p>
           </div>
-          <div className="m-8 mx-auto max-w-sm">
+          <div className="m-8 mx-auto max-w-xs sm:max-w-sm">
             <LeaningBarPics />
           </div>
         </header>
