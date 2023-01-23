@@ -7,13 +7,31 @@ import Image from 'next/image'
 export const LeaningBarPics = () => (
   <>
     <div className="relative m-2 aspect-[3/1] overflow-hidden">
-      <Image src={marnie_lean_1} className="-mt-1" alt="" />
+      <Image
+        src={marnie_lean_1}
+        placeholder="blur"
+        priority
+        className="-mt-1"
+        alt=""
+      />
     </div>
     <div className="relative m-2 aspect-[3/1] overflow-hidden">
-      <Image src={marnie_lean_2} className="-mt-6" alt="" />
+      <Image
+        src={marnie_lean_2}
+        placeholder="blur"
+        priority
+        className="-mt-6"
+        alt=""
+      />
     </div>
     <div className="relative m-2 aspect-[3/1] overflow-hidden">
-      <Image src={marnie_lean_3} className="-mt-10" alt="" />
+      <Image
+        src={marnie_lean_3}
+        placeholder="blur"
+        priority
+        className="-mt-10"
+        alt=""
+      />
     </div>
   </>
 )
@@ -32,7 +50,7 @@ export const AnchorImage = ({
     title={title}
     rel="noreferrer"
   >
-    <Image src={image} alt={title} className="" title={title} />
+    <Image src={image} alt={title} title={title} />
   </a>
 )
 
@@ -43,8 +61,10 @@ export const AnchorImageSlider = ({
   title?: string
   images: (ImageInfo | PodcastInfo)[]
 }) => (
-  <div className="scrollbar-hide my-3 flex items-center gap-5 overflow-y-auto">
-    {title && <p className="-mr-8 -ml-4 -rotate-90 text-sm">{title}</p>}
-    {images.map(AnchorImage)}
-  </div>
+  <>
+    <div className="scrollbar-hide my-3 flex items-center gap-5 overflow-y-auto">
+      {title && <p className="-mr-8 -ml-4 -rotate-90 text-sm">{title}</p>}
+      {images.map(AnchorImage)}
+    </div>
+  </>
 )

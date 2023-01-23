@@ -49,8 +49,9 @@ export const PodcastInfoSection = ({
         <Image
           src={image}
           alt={title}
-          className="mx-auto h-36 w-36 rounded"
+          className="mx-auto h-36 w-36 rounded bg-neutral-300/30"
           title={title}
+          placeholder="blur"
         />
       )}
     </div>

@@ -17,6 +17,7 @@ export default function Home() {
         </div>
         <Image
           src={marnie_listening}
+          placeholder="blur"
           className="mx-auto my-4 max-w-xs"
           alt=""
         />
