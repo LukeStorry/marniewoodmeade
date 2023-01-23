@@ -1,4 +1,4 @@
-import { PodcastInfoRow } from './components'
+import { PodcastInfoSection } from './components'
 import { PODCASTS } from '@config'
 
 export default function Podcasts() {
@@ -9,7 +9,7 @@ export default function Podcasts() {
       {Object.values(PODCASTS)
         .flat()
         .map((pod, i) => (
-          <PodcastInfoRow {...pod} index={i} key={pod.id} />
+          <PodcastInfoSection {...pod} index={i} key={pod.id} />
         ))}
     </main>
   )

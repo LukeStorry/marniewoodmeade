@@ -4,7 +4,7 @@ import { PodcastInfo } from '@config'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const PodcastInfoRow = ({
+export const PodcastInfoSection = ({
   id,
   title,
   image,
@@ -39,7 +39,8 @@ export const PodcastInfoRow = ({
     <div className="m-8 max-sm:w-full">
       {spotifyEpisodeId != undefined ? (
         <iframe
-          className="h-52 w-full rounded sm:max-w-sm"
+          title={`Spotify player: ${title}`}
+          className="h-52 w-full"
           src={`https://open.spotify.com/embed/episode/${spotifyEpisodeId}?theme=1`}
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
