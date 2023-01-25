@@ -1,14 +1,14 @@
-import { LeaningBarPics } from './components'
 import './globals.css'
-import { Genos, Glory } from '@next/font/google'
-import Link from 'next/link'
+import { Libre_Baskerville, Source_Sans_Pro } from '@next/font/google'
 
-const headerFont = Genos({
+const headerFont = Libre_Baskerville({
+  weight: '400',
   subsets: ['latin'],
   variable: '--header-font',
 })
 
-const bodyFont = Glory({
+const bodyFont = Source_Sans_Pro({
+  weight: '400',
   subsets: ['latin'],
   variable: '--body-font',
 })
@@ -21,31 +21,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${headerFont.variable} ${bodyFont.variable} md:text-lg`}
+      className={`min-w-[350px] text-lg ${headerFont.variable} ${bodyFont.variable}`}
     >
       <head />
-      <body className="mx-auto max-w-5xl bg-[#f4ecc4]  text-[#5e4626]">
-        <header className="mt-4 flex items-center gap-5 p-4">
-          <div className="md:ml-auto">
-            <h1 className="text-4xl font-thin md:text-7xl">
-              <Link href="/">
-                Marnie <br /> Woodmeade
-              </Link>
-            </h1>
-            <h2 className="text-xl font-bold uppercase tracking-widest">
-              Audio Producer
-            </h2>
-            <p className="max-w-sm">
-              I am an audio producer, writer and campaigner specialising in
-              stories of social movements and extraordinary people.
-            </p>
-          </div>
-          <div className="m-8 mx-auto max-w-xs sm:max-w-sm">
-            <LeaningBarPics />
-          </div>
-        </header>
-        {children}
-      </body>
+      <body className="mx-auto bg-[#f1f1e6]  text-[#914327]">{children}</body>
     </html>
   )
 }

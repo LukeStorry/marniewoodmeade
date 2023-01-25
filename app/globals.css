@@ -10,12 +10,9 @@
   h5,
   h6 {
     font-family: var(--header-font), serif;
-    font-size: 2rem;
-    font-weight: 100;
   }
   * {
     font-family: var(--body-font), sans-serif;
-    font-weight: 300;
   }
 }
 
@@ -26,5 +23,8 @@
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+  .pause-on-hover:hover * {
+    animation-play-state: paused;
   }
 }

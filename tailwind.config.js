@@ -13,6 +13,8 @@ module.exports = {
     extend: {
       animation: {
         highlight: 'highlight 0.7s 2',
+        marquee: 'marquee 25s linear infinite',
+        'marquee-filler': 'marquee-filler 25s linear infinite',
       },
       keyframes: {
         highlight: {
@@ -26,8 +28,15 @@ module.exports = {
             background: '#fff3',
           },
         },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        'marquee-filler': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
       },
     },
   },
-  plugins: [],
 }

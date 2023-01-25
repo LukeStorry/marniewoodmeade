@@ -1,5 +1,6 @@
 const DESCRIPTION =
   'I am an audio producer, writer and campaigner specialising in stories of social movements and extraordinary people.'
+
 export default function Head() {
   return (
     <>

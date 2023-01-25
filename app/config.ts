@@ -9,6 +9,7 @@ import pod_gentle_activism from '@images/pod_gentle_activism.png'
 import pod_glasto_commons from '@images/pod_glasto_commons.png'
 import pod_table_manners from '@images/pod_table_manners.png'
 import pod_tell_dem from '@images/pod_tell_dem.png'
+import pod_anthems from '@images/pod_anthems.png'
 import pod_unreality from '@images/pod_unreality.png'
 import { StaticImageData } from 'next/image'
 
@@ -124,6 +125,19 @@ export const PODCASTS = {
       link: 'https://audioboom.com/channels/5093481',
       spotifyEpisodeId: undefined,
       contribution: 'I supported Talia ...',
+    },
+  
+  ],
+  voiced: [
+    {
+      id: 'anthems',
+      title: 'Anthems',
+      description:
+        '“Anthems” is a collection of original manifestos, speeches, stories, poems, and rallying cries written and voiced by exceptional people, that celebrate and contemplate what it means to be human. Our beauty, our failures, our rich heritage, our rage, and our power. Proving that there is more that binds us together than sets us apart.',
+      image: pod_anthems,
+      link: 'https://open.spotify.com/episode/03AkLjXWnFaN6rhcx0T6oe',
+      spotifyEpisodeId: '03AkLjXWnFaN6rhcx0T6oe',
+      contribution: 'I wrote and voiced ...',
     },
   ],
 // eslint-disable-next-line prettier/prettier
