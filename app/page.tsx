@@ -62,7 +62,7 @@ export default function Home() {
       </section>
 
       <section className="mt-12 pl-4 pr-0 md:pl-8">
-        <h2 className="mb-5 text-xl md:mb-8 md:text-3xl">
+        <h2 className="mb-5 text-lg md:mb-8 md:text-3xl">
           Proud to have worked with
         </h2>
         <div className="scrollbar-hide my-3 flex items-center gap-5 overflow-y-auto">
@@ -71,17 +71,15 @@ export default function Home() {
       </section>
 
       <section className="mt-12 flex items-stretch">
-        {/* <div className="relative max-w-[40vw] overflow-hidden"> */}
         <Image
           src={marnie_listening}
           placeholder="blur"
           className="max-w-[40vw] object-cover object-left"
           alt=""
         />
-        {/* </div> */}
 
         <div className="mx-auto p-4">
-          <h2 className="text-xl md:text-3xl">I&apos;ve learned from</h2>
+          <h2 className="text-lg md:text-3xl">I&apos;ve learned from</h2>
           <ul className="mt-4 list-disc pl-4 text-sm md:mt-8 md:text-base">
             <li>MSc International Development with Distinction 2021</li>
             <li>BSc Social Policy with First Class Honours 2019</li>
@@ -93,7 +91,7 @@ export default function Home() {
 
       <section className="my-12 pl-4 pr-0 md:pl-8">
         <div className="mb-5 items-center sm:flex md:mb-8">
-          <h2 className="text-xl md:text-3xl">Podcasts</h2>
+          <h2 className="text-lg md:text-3xl">Podcasts</h2>
           <p className="text-sm max-sm:mt-4 sm:px-16 md:text-base">
             I take podcasts all the way from conception through to sound design,
             editing and mixing
