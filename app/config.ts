@@ -88,7 +88,7 @@ export const PODCASTS = {
       image: pod_gentle_activism,
       link: 'https://www.selfinjurysupport.org.uk/blog/making-gentle-activism',
       spotifyEpisodeId: '22p1fGFTugohYRBo7lG3HO',
-      contribution: 'The fact that an enormous amount of the raw content was so moving meant that editing was tough. I struggled with feeling like I was doing an injustice by choosing one segment over another. What did the world need to know from these women? This was a question I grappled with endlessly. Fortunately, we had a wonderful team of volunteers who had conducted the interviews and their feedback was invaluable. They were not just kind and generous, as so many of the people at Self Injury Support are, but also honest about their thoughts.',
+      contribution: '', //'The fact that an enormous amount of the raw content was so moving meant that editing was tough. I struggled with feeling like I was doing an injustice by choosing one segment over another. What did the world need to know from these women? This was a question I grappled with endlessly. Fortunately, we had a wonderful team of volunteers who had conducted the interviews and their feedback was invaluable. They were not just kind and generous, as so many of the people at Self Injury Support are, but also honest about their thoughts.',
     },
     {
       id: 'glasto-common-people',
