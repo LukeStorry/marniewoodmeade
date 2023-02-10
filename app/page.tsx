@@ -4,24 +4,8 @@ import marnie_lean_2 from '@images/marnie_lean_2.jpg'
 import marnie_lean_3 from '@images/marnie_lean_3.jpg'
 import marnie_listening from '@images/marnie_listening.jpg'
 import Image, { StaticImageData } from 'next/image'
+import { FC } from 'react'
 
-const AnchorImage = ({
-  image,
-  title,
-  link,
-  ...rest
-}: ImageInfo | PodcastInfo) => (
-  <a
-    href={'id' in rest ? `/podcasts#${rest.id}` : link}
-    className="flex h-24 w-24 shrink-0 items-center sm:h-28 sm:w-28 md:h-28 md:w-28"
-    target={'id' in rest ? undefined : '_blank'}
-    key={title}
-    title={title}
-    rel="noreferrer"
-  >
-    <Image src={image} alt={title} title={title} />
-  </a>
-)
 const ImageBar = (p: { imageClass: string; src: StaticImageData }) => (
   <div className="relative aspect-[3/1] overflow-hidden">
     <Image
@@ -33,15 +17,45 @@ const ImageBar = (p: { imageClass: string; src: StaticImageData }) => (
     />
   </div>
 )
-const PodcastBar = () => (
-  <>
-    {Object.entries(PODCASTS).map(([title, pods]) => (
-      <>
-        <p className="-mr-8 -ml-4 -rotate-90 text-sm">{title}</p>
-        {pods.map(AnchorImage)}
-      </>
-    ))}
-  </>
+
+const AnchorImage = ({
+  image,
+  title,
+  link,
+  ...rest
+}: ImageInfo | PodcastInfo) => {
+  const isPodcast = 'id' in rest
+  return (
+    <a
+      href={isPodcast ? `/audio#${rest.id}` : link}
+      className={
+        'transition-transform hover:scale-110 ' +
+        (isPodcast
+          ? ' h-24 w-24 md:w-36 md:h-36 lg:w-48 lg:h-48 '
+          : ' w-24 md:w-32 flex items-center shrink-0 ')
+      }
+      target={isPodcast ? undefined : '_blank'}
+      key={title}
+      title={title}
+      rel="noreferrer"
+    >
+      <Image src={image} alt={title} title={title} />
+    </a>
+  )
+}
+
+const InfiniteScroll: FC<{ children: JSX.Element[] }> = ({ children }) => (
+  <div className="pause-on-hover relative flex overflow-x-hidden transition-all motion-safe:overflow-x-scroll">
+    <div className="flex items-center gap-5 pl-8 motion-safe:animate-marquee">
+      {children}
+    </div>
+    <div
+      aria-hidden="true"
+      className="absolute top-0 flex items-center gap-5 pl-8 motion-safe:animate-marquee-filler"
+    >
+      {children}
+    </div>
+  </div>
 )
 export default function Home() {
   return (
@@ -61,7 +75,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="mt-12 pl-4 pr-0 md:pl-8">
+      <section className="my-20 pl-4 pr-0 md:pl-8">
         <h2 className="mb-5 text-lg md:mb-8 md:text-3xl">
           Proud to have worked with
         </h2>
@@ -70,7 +84,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-12 flex items-stretch">
+      <section className="my-20 flex items-stretch">
         <Image
           src={marnie_listening}
           placeholder="blur"
@@ -89,7 +103,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="my-12 pl-4 pr-0 md:pl-8">
+      <section className="my-20 pl-4 pr-0 md:pl-8">
         <div className="mb-5 items-center sm:flex md:mb-8">
           <h2 className="text-lg md:text-3xl">Podcasts</h2>
           <p className="text-sm max-sm:mt-4 sm:px-16 md:text-base">
@@ -98,17 +112,14 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="pause-on-hover relative flex overflow-x-hidden motion-safe:overflow-x-scroll">
-          <div className="flex items-center gap-5 pl-8 motion-safe:animate-marquee">
-            <PodcastBar />
-          </div>
-          <div
-            aria-hidden="true"
-            className="absolute top-0 flex items-center gap-5 pl-8 motion-safe:animate-marquee-filler"
-          >
-            <PodcastBar />
-          </div>
-        </div>
+        <InfiniteScroll>
+          {Object.entries(PODCASTS).map(([title, pods]) => (
+            <>
+              <p className="-mr-8 -ml-4 -rotate-90 text-sm">{title}</p>
+              {pods.map(AnchorImage)}
+            </>
+          ))}
+        </InfiniteScroll>
       </section>
     </main>
   )
