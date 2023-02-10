@@ -3,6 +3,9 @@ import logo_glasto from '@images/logo_glasto.png'
 import logo_great_escape from '@images/logo_great_escape.png'
 import logo_lyrix_organix from '@images/logo_lyrix_organix.png'
 import logo_sis from '@images/logo_sis.png'
+import logo_afrikaeye from '@images/logo_afrikaeye.jpeg'
+import logo_b247 from '@images/logo_b247.png'
+import logo_tamasha from '@images/logo_tamasha.png'
 import logo_transmission from '@images/logo_transmission.png'
 import pod_backstage_roundhouse from '@images/pod_backstage_roundhouse.png'
 import pod_gentle_activism from '@images/pod_gentle_activism.png'
@@ -49,6 +52,21 @@ export const WORKED_WITH: ImageInfo[] = [
     title: 'Self Injury Support',
     image: logo_sis,
     link: 'https://selfinjurysupport.org.uk/',
+  },
+  {
+    title: 'Afrika Eye Film Festival',
+    image: logo_afrikaeye,
+    link: 'https://www.afrikaeye.org.uk/',
+  },
+  {
+    title: 'Bristol 24/7',
+    image: logo_b247,
+    link: 'https://www.bristol247.com/',
+  },
+  {
+    title: 'Tamasha Theatre Company',
+    image: logo_tamasha,
+    link: 'https://www.tamasha.org.uk/',
   },
 ]
 
