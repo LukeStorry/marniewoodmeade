@@ -29,12 +29,12 @@ export const NavBar = () => {
     >
       <ul className="flex justify-around px-8 py-2 text-xl font-extrabold uppercase md:text-2xl">
         <li>
-          <Link className=" bg-clip-text font-heading" href="/">
+          <Link className="font-heading hover:text-[#f1f1e6]" href="/">
             About Me
           </Link>
         </li>
         <li>
-          <Link className="font-heading" href="/audio">
+          <Link className="font-heading hover:text-[#f1f1e6]" href="/audio">
             Audio
           </Link>
         </li>
