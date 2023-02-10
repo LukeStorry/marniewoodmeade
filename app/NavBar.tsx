@@ -10,7 +10,10 @@ export const NavBar = () => {
 
   const handleScroll = debounce(() => {
     const currentScrollY = window.scrollY
-    setVisible(prevScrollY > currentScrollY)
+    setVisible(
+      (prevScrollY > currentScrollY && prevScrollY - currentScrollY > 70) ||
+        currentScrollY < 50
+    )
     setPrevScrollY(currentScrollY)
   }, 100)
 
