@@ -1,3 +1,4 @@
+import { NavBar } from './NavBar'
 import './globals.css'
 import { Libre_Baskerville, Source_Sans_Pro } from '@next/font/google'
 
@@ -23,8 +24,10 @@ export default function RootLayout({
       lang="en"
       className={`min-w-[350px] text-lg ${headerFont.variable} ${bodyFont.variable}`}
     >
-      <head />
-      <body className="mx-auto bg-[#f1f1e6]  text-[#914327]">{children}</body>
+      <body className="mx-auto bg-[#f1f1e6] text-[#914327]">
+        <NavBar />
+        {children}
+      </body>
     </html>
   )
 }
