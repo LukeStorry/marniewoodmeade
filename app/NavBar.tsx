@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 export const NavBar = () => {
-  const [prevScrollY, setPrevScrollY] = useState(window.scrollY)
+  const [prevScrollY, setPrevScrollY] = useState(0)
   const [visible, setVisible] = useState(true)
 
   const handleScroll = debounce(() => {
