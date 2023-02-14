@@ -18,6 +18,7 @@ export const NavBar = () => {
   }, 100)
 
   useEffect(() => {
+    if (!window) return)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [prevScrollY, visible, handleScroll])
