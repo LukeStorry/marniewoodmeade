@@ -98,7 +98,7 @@ export const PODCASTS = {
       image: pod_glasto_commons,
       link: 'https://audioboom.com/channels/5083105',
       spotifyEpisodeId: '5eSJS63IGlsPFh8mlnKBaF',
-      contribution: 'I produced it',
+      contribution: '',
     },
     {
       id: 'telldem',
@@ -108,7 +108,7 @@ export const PODCASTS = {
       image: pod_tell_dem,
       link: 'https://audioboom.com/channels/5083828',
       spotifyEpisodeId: '6OmYqjTYRvHZcwwLjSIQDV',
-      contribution: 'I produced it',
+      contribution: '',
     },
     {
       id: 'backstage-at-the-roundhouse',
@@ -118,7 +118,7 @@ export const PODCASTS = {
       image: pod_backstage_roundhouse,
       link: 'https://audioboom.com/channels/5071120',
       spotifyEpisodeId: '6uUg0IIN8gC1k2HwMylBws',
-      contribution: 'I produced it for the past year',
+      contribution: '',
     },
   ],
   recorded: [
@@ -130,7 +130,7 @@ export const PODCASTS = {
       image: pod_table_manners,
       link: 'https://shows.acast.com/tablemanners',
       spotifyEpisodeId: undefined,
-      contribution: 'I recorded it',
+      contribution: '',
     },
   ],
   supported: [
@@ -142,7 +142,7 @@ export const PODCASTS = {
       image: pod_unreality,
       link: 'https://audioboom.com/channels/5093481',
       spotifyEpisodeId: undefined,
-      contribution: 'I supported Talia ...',
+      contribution: 'Provided copy writing and media liasion',
     },
   
   ],
@@ -155,7 +155,7 @@ export const PODCASTS = {
       image: pod_anthems,
       link: 'https://open.spotify.com/episode/03AkLjXWnFaN6rhcx0T6oe',
       spotifyEpisodeId: '03AkLjXWnFaN6rhcx0T6oe',
-      contribution: 'I wrote and voiced ...',
+      contribution: '',
     },
   ],
 // eslint-disable-next-line prettier/prettier
