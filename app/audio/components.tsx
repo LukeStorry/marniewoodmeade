@@ -23,7 +23,7 @@ export const PodcastInfoSection = ({
     }
   >
     <div className="w-full sm:w-1/2 sm:pb-16">
-      <a href={'/podcasts#' + id}>
+      <a href={'/audio#' + id}>
         <h2>{title}</h2>
       </a>
       <p className="m-2 font-medium">{description}</p>

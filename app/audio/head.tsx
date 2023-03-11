@@ -1,4 +1,4 @@
-const TITLE = 'Marnie Woodmeade - Podcasts'
+const TITLE = 'Marnie Woodmeade - Audio'
 const DESCRIPTION =
   'I am an audio producer, here are some podcasts I have worked on.'
 
