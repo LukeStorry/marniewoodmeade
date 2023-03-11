@@ -7,6 +7,7 @@ import logo_afrikaeye from '@images/logo_afrikaeye.jpeg'
 import logo_b247 from '@images/logo_b247.png'
 import logo_tamasha from '@images/logo_tamasha.png'
 import logo_transmission from '@images/logo_transmission.png'
+import pod_dwelling from '@images/pod_dwelling.png'
 import pod_backstage_roundhouse from '@images/pod_backstage_roundhouse.png'
 import pod_gentle_activism from '@images/pod_gentle_activism.png'
 import pod_glasto_commons from '@images/pod_glasto_commons.png'
@@ -76,10 +77,21 @@ export type PodcastInfo = ImageInfo & {
   description: string
   spotifyEpisodeId: string | undefined
   contribution: string
-} 
+}
 
 export const PODCASTS = {
   produced: [
+    {
+      id: 'dwelling',
+      title: 'Dwelling',
+      description:
+        `Finding and fighting for feelings of home. 
+        As the housing crisis deepens, home is becoming increasingly difficult to find. Join host Marnie Woodmeade as we speak to the people seeking alternatives. From abandoned buildings to lost rivers, they redefine what a home can be. But as restrictions on alternative lifestyles tighten, how can they protect their sanctuaries, sites of resistance and dwelling?`,
+      image: pod_dwelling,
+      link: 'https://audioboom.com/channels/5099388-dwelling',
+      spotifyEpisodeId: '0ucFdbHrLBm9l2TdtLrVDk',
+      contribution: "Featured as one of The Guardian's Pick Of The Weeks",
+    },
     {
       id: 'gentle-activism',
       title: 'Gentle Activism',
@@ -144,7 +156,7 @@ export const PODCASTS = {
       spotifyEpisodeId: undefined,
       contribution: 'Provided copy writing and media liasion',
     },
-  
+
   ],
   voiced: [
     {
@@ -158,6 +170,6 @@ export const PODCASTS = {
       contribution: '',
     },
   ],
-// eslint-disable-next-line prettier/prettier
+  // eslint-disable-next-line prettier/prettier
 } satisfies Record<string, PodcastInfo[]>;
 
