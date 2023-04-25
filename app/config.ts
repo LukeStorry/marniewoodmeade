@@ -141,8 +141,8 @@ export const PODCASTS = {
         'Jessie Ware hosts a podcast about food, family, and the beautiful art of having a chat, with a bit of help from her chef extraordinaire mum Lennie. Each week guests from music, culture and politics drop by for a bite and a bit of a natter.',
       image: pod_table_manners,
       link: 'https://shows.acast.com/tablemanners',
-      spotifyEpisodeId: undefined,
-      contribution: '',
+      spotifyEpisodeId: '792PlYI24JZzREQh6xjqZX',
+      contribution: 'Assistant Sound Engineer',
     },
   ],
   supported: [
@@ -153,7 +153,7 @@ export const PODCASTS = {
         'Unreality exists where fact and fiction collide.        Let host Talia Augustidis guide you through four different stories; from dreams and fantasy to curated falsehoods, as each episode wavers precariously between the imagined and the truth.',
       image: pod_unreality,
       link: 'https://audioboom.com/channels/5093481',
-      spotifyEpisodeId: undefined,
+      spotifyEpisodeId: '0TlwSJ9LyZnHdnVLqPXfbS',
       contribution: 'Provided copy writing and media liasion',
     },
 
