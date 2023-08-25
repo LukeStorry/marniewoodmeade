@@ -115,7 +115,9 @@ export default function Home() {
         <InfiniteScroll>
           {Object.entries(PODCASTS).map(([title, pods]) => (
             <>
-              <p className="-mr-8 -ml-4 -rotate-90 text-sm">{title}</p>
+              <p className="-mr-8 -ml-4 -rotate-90 text-sm" key={title}>
+                {title}
+              </p>
               {pods.map(AnchorImage)}
             </>
           ))}
