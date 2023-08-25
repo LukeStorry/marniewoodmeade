@@ -8,6 +8,7 @@ import logo_b247 from '@images/logo_b247.png'
 import logo_tamasha from '@images/logo_tamasha.png'
 import logo_transmission from '@images/logo_transmission.png'
 import logo_somethin_else from '@images/logo_somethin_else.png'
+import logo_18sixty from '@images/logo_18sixty.png'
 import pod_dwelling from '@images/pod_dwelling.png'
 import pod_backstage_roundhouse from '@images/pod_backstage_roundhouse.png'
 import pod_gentle_activism from '@images/pod_gentle_activism.png'
@@ -47,6 +48,11 @@ export const WORKED_WITH: ImageInfo[] = [
     title: 'Somethin Else',
     image: logo_somethin_else,
     link: 'https://somethinelse.com/',
+  },
+  {
+    title: '18Sixty',
+    image: logo_18sixty,
+    link: 'https://18sixty.uk/',
   },
   {
     title: 'The Great Escape Festival',
