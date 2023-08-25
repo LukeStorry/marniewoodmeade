@@ -133,7 +133,7 @@ export const PODCASTS = {
       contribution: '',
     },
   ],
-  recorded: [
+  'sound_engineered': [
     {
       id: 'table-manners',
       title: 'Table Manners with Jessie and Lennie Ware',
