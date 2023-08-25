@@ -17,6 +17,7 @@ import pod_anthems from '@images/pod_anthems.png'
 import pod_unreality from '@images/pod_unreality.png'
 import pod_life_more_wild from '@images/pod_life_more_wild.jpeg'
 import pod_will_theres_a_way from '@images/pod_will_theres_a_way.jpg'
+import pod_shrink_the_box from '@images/pod_shrink_the_box.jpg'
 import { StaticImageData } from 'next/image'
 
 export type ImageInfo = {
@@ -133,6 +134,18 @@ export const PODCASTS = {
       link: 'https://audioboom.com/channels/5071120',
       spotifyEpisodeId: '6uUg0IIN8gC1k2HwMylBws',
       contribution: '',
+    },
+  ],
+  'assistant_produced': [
+    {
+      id: 'shrink-the-box',
+      title: 'Shrink the Box',
+      description:
+        'Actor comedian Ben Bailey Smith and psychotherapist Sasha Bates put their favourite fictional characters such as Shiv from Succession, Omar from the Wire and Ross from Friends on the couch to analyse why their behaviour causes them so much drama.',
+      image: pod_shrink_the_box,
+      link: 'https://podfollow.com/1663005316/view',
+      spotifyEpisodeId: '01lBclqN2ucGHVrV4lz31i',
+      contribution: 'Assistant Producer',
     },
   ],
   'sound_engineered': [
