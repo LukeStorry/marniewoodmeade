@@ -154,7 +154,7 @@ export const PODCASTS = {
       contribution: '',
     },
   ],
-  'assistant_produced': [
+  'assistant produced': [
     {
       id: 'shrink-the-box',
       title: 'Shrink the Box',
@@ -166,7 +166,7 @@ export const PODCASTS = {
       contribution: 'Assistant Producer',
     },
   ],
-  'sound_engineered': [
+  'sound engineered': [
     {
       id: 'table-manners',
       title: 'Table Manners with Jessie and Lennie Ware',

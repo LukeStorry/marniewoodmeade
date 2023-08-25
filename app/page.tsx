@@ -44,19 +44,18 @@ const AnchorImage = ({
   )
 }
 
-const InfiniteScroll: FC<{ children: JSX.Element[] }> = ({ children }) => (
-  <div className="pause-on-hover relative flex overflow-x-hidden transition-all motion-safe:overflow-x-scroll">
-    <div className="flex items-center gap-5 pl-8 motion-safe:animate-marquee">
-      {children}
+const InfiniteScroll: FC<{ children: JSX.Element[] }> = ({ children }) => {
+  const innerMarquee =
+    ' flex items-center gap-8 pl-8 motion-safe:animate-marquee'
+  return (
+    <div className="pause-on-hover relative flex overflow-x-scroll transition-all motion-safe:overflow-x-hidden">
+      <div className={innerMarquee}>{children}</div>
+      <div aria-hidden="true" className={'absolute top-0 ' + innerMarquee}>
+        {children}
+      </div>
     </div>
-    <div
-      aria-hidden="true"
-      className="absolute top-0 flex items-center gap-5 pl-8 motion-safe:animate-marquee-filler"
-    >
-      {children}
-    </div>
-  </div>
-)
+  )
+}
 export default function Home() {
   return (
     <main>
@@ -114,12 +113,12 @@ export default function Home() {
 
         <InfiniteScroll>
           {Object.entries(PODCASTS).map(([title, pods]) => (
-            <>
-              <p className="-mr-8 -ml-4 -rotate-90 text-sm" key={title}>
+            <div className="flex gap-4" key={title}>
+              <p className="rotate-180 text-center [writing-mode:vertical-lr] ">
                 {title}
               </p>
               {pods.map(AnchorImage)}
-            </>
+            </div>
           ))}
         </InfiniteScroll>
       </section>
