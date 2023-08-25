@@ -15,6 +15,7 @@ import pod_table_manners from '@images/pod_table_manners.png'
 import pod_tell_dem from '@images/pod_tell_dem.png'
 import pod_anthems from '@images/pod_anthems.png'
 import pod_unreality from '@images/pod_unreality.png'
+import pod_life_more_wild from '@images/pod_life_more_wild.jpeg'
 import { StaticImageData } from 'next/image'
 
 export type ImageInfo = {
@@ -143,6 +144,16 @@ export const PODCASTS = {
       link: 'https://shows.acast.com/tablemanners',
       spotifyEpisodeId: '792PlYI24JZzREQh6xjqZX',
       contribution: 'Assistant Sound Engineer',
+    },
+    {
+      id: 'a-life-more-wild',
+      title: 'A Life More Wild',
+      description:
+        "A Life More Wild is a series of wild walks with fascinating people, transporting you to the great outdoors and helping you connect with nature as you hear how they've woven the natural world into lives.",
+      image: pod_life_more_wild,
+      link: 'https://podfollow.com/1571270718/view',
+      spotifyEpisodeId: '7wa9IDpLNETuGxQEoAzfem',
+      contribution: 'Field recording and interviewer',
     },
   ],
   supported: [
