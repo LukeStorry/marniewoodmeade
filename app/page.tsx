@@ -45,17 +45,22 @@ const AnchorImage = ({
 }
 
 const InfiniteScroll: FC<{ children: JSX.Element[] }> = ({ children }) => {
-  const innerMarquee =
-    ' flex items-center gap-8 pl-8 motion-safe:animate-marquee'
+  const innerMarquee = 'flex items-center gap-5 pl-8 '
   return (
     <div className="pause-on-hover relative flex overflow-x-scroll transition-all motion-safe:overflow-x-hidden">
-      <div className={innerMarquee}>{children}</div>
-      <div aria-hidden="true" className={'absolute top-0 ' + innerMarquee}>
+      <div className={`motion-safe:animate-marquee ${innerMarquee} `}>
+        {children}
+      </div>
+      <div
+        aria-hidden="true"
+        className={`absolute top-0 motion-safe:animate-marquee-filler ${innerMarquee} `}
+      >
         {children}
       </div>
     </div>
   )
 }
+
 export default function Home() {
   return (
     <main>
