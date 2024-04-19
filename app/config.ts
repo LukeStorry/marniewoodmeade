@@ -19,6 +19,7 @@ import pod_life_more_wild from '@images/pod_life_more_wild.jpeg'
 import pod_mind_the_gap from '@images/pod_mind_the_gap.webp'
 import pod_ouse from '@images/pod_ouse.jpeg'
 import pod_shrink_the_box from '@images/pod_shrink_the_box.jpg'
+import pod_three_body from '@images/pod_three_body.webp'
 import pod_table_manners from '@images/pod_table_manners.png'
 import pod_tell_dem from '@images/pod_tell_dem.png'
 import { StaticImageData } from 'next/image'
@@ -183,6 +184,16 @@ export const PODCASTS = {
       link: 'https://podfollow.com/1663005316/view',
       spotifyEpisodeId: '01lBclqN2ucGHVrV4lz31i',
       contribution: 'Assistant Producer',
+    },
+    {
+      id: 'three-body',
+      title: "Netflix's 3 Body Podcast",
+      description:
+        'Hosts Dr. Maggie Aderin-Pocock and Jason Concepcion will talk to a range of people involved in the making of the show, including the showrunners, directors, and the VFX supervisors, to give unparalleled behind-the-scenes insight. They’ll also chat with experts in the field, from NASA scientists, to ex-CIA operatives, about the real-world implications of what unfolds on screen.',
+      image: pod_three_body,
+      link: 'https://podcasts.apple.com/gb/podcast/3-body-podcast/id1733588331',
+      spotifyEpisodeId: '42XaJPSxvSd7Lvq5sUN8QA',
+      contribution: 'Assistant Producer. For this episode I scripted, wrote guest questions and edited.',
     },
   ],
   'sound engineered': [
