@@ -21,8 +21,6 @@ import pod_ouse from '@images/pod_ouse.jpeg'
 import pod_shrink_the_box from '@images/pod_shrink_the_box.jpg'
 import pod_table_manners from '@images/pod_table_manners.png'
 import pod_tell_dem from '@images/pod_tell_dem.png'
-import pod_unreality from '@images/pod_unreality.png'
-import pod_will_theres_a_way from '@images/pod_will_theres_a_way.jpg'
 import { StaticImageData } from 'next/image'
 
 export type ImageInfo = {
@@ -208,28 +206,6 @@ export const PODCASTS = {
       spotifyEpisodeId: '7wa9IDpLNETuGxQEoAzfem',
       contribution: 'Field recording and interviewer',
     },
-  ],
-  supported: [
-    {
-      id: 'unreality',
-      title: 'UnReality',
-      description:
-        'Unreality exists where fact and fiction collide.        Let host Talia Augustidis guide you through four different stories; from dreams and fantasy to curated falsehoods, as each episode wavers precariously between the imagined and the truth.',
-      image: pod_unreality,
-      link: 'https://audioboom.com/channels/5093481',
-      spotifyEpisodeId: '0TlwSJ9LyZnHdnVLqPXfbS',
-      contribution: 'Provided copy writing and media liasion',
-    },
-    {
-      id: 'where-theres-a-will-theres-a-wake',
-      title: "Where There's A Will, There's A Wake",
-      description: "If you could plan your perfect death, what would you do?      It's a hilarious, irreverent, dark and sometimes moving podcast where our guests will see their death brought to life as they plan their final day from dawn to dusk and into the afterlife.",
-      image: pod_will_theres_a_way,
-      link: 'https://podfollow.com/1654059310/view',
-      spotifyEpisodeId: '4iW5xSZeKrFCgMMp2qgC9b',
-      contribution: 'Weekly transcripts',
-    },
-
   ],
   voiced: [
     {
