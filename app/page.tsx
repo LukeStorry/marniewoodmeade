@@ -1,4 +1,4 @@
-import { PODCASTS, WORKED_WITH, ImageInfo, PodcastInfo } from '@config'
+import { PODCASTS, WORKED_WITH, ImageInfo, PodcastInfo, AWARDS } from '@config'
 import marnie_lean_1 from '@images/marnie_lean_1.jpeg'
 import marnie_lean_2 from '@images/marnie_lean_2.jpg'
 import marnie_lean_3 from '@images/marnie_lean_3.jpg'
@@ -89,22 +89,22 @@ export default function Home() {
       </section>
 
       <section className="my-20 flex items-stretch">
-        <Image
+        <div className="mx-auto p-4">
+          <h2 className="text-lg md:text-3xl">Awards & recognition</h2>
+          <ul className="mt-4 list-disc pl-4 text-sm md:mt-8 md:text-base">
+            {AWARDS.map(({ body, award }) => (
+              <li key={body}>
+                <strong>{body}</strong> - {award}
+              </li>
+            ))}
+          </ul>
+        </div>
+        {/* <Image
           src={marnie_listening}
           placeholder="blur"
           className="max-w-[40vw] object-cover object-left"
           alt=""
-        />
-
-        <div className="mx-auto p-4">
-          <h2 className="text-lg md:text-3xl">I&apos;ve learned from</h2>
-          <ul className="mt-4 list-disc pl-4 text-sm md:mt-8 md:text-base">
-            <li>MSc International Development with Distinction 2021</li>
-            <li>BSc Social Policy with First Class Honours 2019</li>
-            <li>Transmission Roundhouse Traineeship 2022-23</li>
-            <li>In The Dark Radio School 2023</li>
-          </ul>
-        </div>
+        /> */}
       </section>
 
       <section className="my-20 pl-4 pr-0 md:pl-8">
@@ -126,6 +126,25 @@ export default function Home() {
             </div>
           ))}
         </InfiniteScroll>
+      </section>
+
+      <section className="my-20 flex items-stretch">
+        <Image
+          src={marnie_listening}
+          placeholder="blur"
+          className="max-w-[40vw] object-cover object-left"
+          alt=""
+        />
+
+        <div className="mx-auto p-4">
+          <h2 className="text-lg md:text-3xl">I&apos;ve learned from</h2>
+          <ul className="mt-4 list-disc pl-4 text-sm md:mt-8 md:text-base">
+            <li>MSc International Development with Distinction 2021</li>
+            <li>BSc Social Policy with First Class Honours 2019</li>
+            <li>Transmission Roundhouse Traineeship 2022-23</li>
+            <li>In The Dark Radio School 2023</li>
+          </ul>
+        </div>
       </section>
     </main>
   )

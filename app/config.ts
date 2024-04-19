@@ -239,3 +239,31 @@ export const PODCASTS = {
   // eslint-disable-next-line prettier/prettier
 } satisfies Record<string, PodcastInfo[]>;
 
+
+export const AWARDS = [
+  { body: 'Pineapple Awards 2023', award: 'Best New Producer' },
+  {
+    body: 'Audio Production Awards 2023',
+    award: 'SILVER Grassroots Production Award',
+  },
+  {
+    body: 'Independent Podcast Awards 2023',
+    award: 'Shortlisted for Best Educational Podcast',
+  },
+  {
+    body: 'International Women’s Podcast Awards 2023',
+    award: 'Shortlisted for Changing the World One Moment at a Time',
+  },
+  {
+    body: 'Community Radio Awards 2022',
+    award: 'SILVER Best Podcast',
+  },
+  {
+    body: 'Women’s History Network 2022',
+    award: 'Best Community History Project',
+  },
+  {
+    body: 'PodBible Listener Polls 2023',
+    award: 'WINNER Film & TV, Comedy',
+  },
+]
