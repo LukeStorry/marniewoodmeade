@@ -102,7 +102,7 @@ export type PodcastInfo = ImageInfo & {
 }
 
 export const PODCASTS = {
-  produced: [
+  producer: [
     {
       id: 'dwelling',
       title: 'Dwelling',
@@ -174,7 +174,7 @@ export const PODCASTS = {
       contribution: '',
     },
   ],
-  'assistant produced': [
+  'assistant producer': [
     {
       id: 'shrink-the-box',
       title: 'Shrink the Box',
@@ -196,7 +196,7 @@ export const PODCASTS = {
       contribution: 'Assistant Producer. For this episode I scripted, wrote guest questions and edited.',
     },
   ],
-  'sound engineered': [
+  'sound engineer': [
     {
       id: 'table-manners',
       title: 'Table Manners with Jessie and Lennie Ware',
@@ -218,7 +218,7 @@ export const PODCASTS = {
       contribution: 'Field recording and interviewer',
     },
   ],
-  voiced: [
+  writer: [
     {
       id: 'anthems',
       title: 'Anthems',
