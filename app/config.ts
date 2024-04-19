@@ -2,6 +2,7 @@ import logo_18sixty from '@images/logo_18sixty.png'
 import logo_afrikaeye from '@images/logo_afrikaeye.jpeg'
 import logo_b247 from '@images/logo_b247.png'
 import logo_broccoli from '@images/logo_broccoli.png'
+import logo_auntnell from '@images/logo_auntnell.png'
 import logo_glasto from '@images/logo_glasto.png'
 import logo_great_escape from '@images/logo_great_escape.png'
 import logo_lyrix_organix from '@images/logo_lyrix_organix.png'
@@ -31,6 +32,11 @@ export type ImageInfo = {
 }
 
 export const WORKED_WITH: ImageInfo[] = [
+  {
+    title: 'Aunt Nell',
+    image: logo_auntnell,
+    link: 'https://twitter.com/AuntNell_',
+  },
   {
     title: 'Transmission Roundhouse',
     image: logo_transmission,
