@@ -15,6 +15,7 @@ import pod_backstage_roundhouse from '@images/pod_backstage_roundhouse.png'
 import pod_gentle_activism from '@images/pod_gentle_activism.png'
 import pod_glasto_commons from '@images/pod_glasto_commons.png'
 import pod_table_manners from '@images/pod_table_manners.png'
+import pod_mind_the_gap from '@images/pod_mind_the_gap.webp'
 import pod_tell_dem from '@images/pod_tell_dem.png'
 import pod_anthems from '@images/pod_anthems.png'
 import pod_unreality from '@images/pod_unreality.png'
@@ -111,7 +112,16 @@ export const PODCASTS = {
       image: pod_dwelling,
       link: 'https://audioboom.com/channels/5099388-dwelling',
       spotifyEpisodeId: '0ucFdbHrLBm9l2TdtLrVDk',
-      contribution: "Featured as one of The Guardian's Pick Of The Weeks",
+      contribution: "Featured as one of The Guardian's Pick Of The Week",
+    },{
+      id: 'mind-the-gap',
+      title: 'Mind The Gap',
+      description:
+        `For 160 years the London Underground has been part of the fabric of life in the capital. Tim Dunn travels to Tube stations across London, along his way meeting guests including tv and radio presenter Rylan, writer, DJ and Night Czar Amy Lamé and designer Wayne Hemingway and hears stories of their passion and love for the world’s oldest underground network.`,
+      image: pod_mind_the_gap,
+      link: 'https://podcasts.apple.com/gb/podcast/mind-the-gap-tube-160/id1721817495',
+      spotifyEpisodeId: '58VhmlklhGmhchDaaQVdnI',
+      contribution: "Number 1 podcast in Places And Travel",
     },
     {
       id: 'gentle-activism',
