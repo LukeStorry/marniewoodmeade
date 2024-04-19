@@ -142,7 +142,7 @@ export default function Home() {
             <li>MSc International Development with Distinction 2021</li>
             <li>BSc Social Policy with First Class Honours 2019</li>
             <li>Transmission Roundhouse Traineeship 2022-23</li>
-            <li>In The Dark Radio School 2023</li>
+            <li>In The Dark Creative Audio Documentary course</li>
           </ul>
         </div>
       </section>
