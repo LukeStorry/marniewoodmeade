@@ -11,6 +11,7 @@ import logo_somethin_else from '@images/logo_somethin_else.png'
 import logo_18sixty from '@images/logo_18sixty.png'
 import logo_roundhouse from '@images/logo_roundhouse.png'
 import pod_dwelling from '@images/pod_dwelling.png'
+import pod_ouse from '@images/pod_ouse.jpeg'
 import pod_backstage_roundhouse from '@images/pod_backstage_roundhouse.png'
 import pod_gentle_activism from '@images/pod_gentle_activism.png'
 import pod_glasto_commons from '@images/pod_glasto_commons.png'
@@ -122,6 +123,16 @@ export const PODCASTS = {
       link: 'https://podcasts.apple.com/gb/podcast/mind-the-gap-tube-160/id1721817495',
       spotifyEpisodeId: '58VhmlklhGmhchDaaQVdnI',
       contribution: "Number 1 podcast in Places And Travel",
+    },{
+      id: 'advocating-for-nature',
+      title: 'Advocating for Nature',
+      description:
+        `The Rights of Nature movement is a significant culture shift. In February 2023 Lewes District Council passed a ‘Rights of River Motion’ acknowledging the rights of nature as a way of improving river health - the first council in England to do so.
+        This podcast hears from many different voices about what this might mean in practice, where the ideas have come from and some of the challenges of giving nature the same protection enjoyed by people.`,
+      image: pod_ouse,
+      link: 'https://open.spotify.com/show/42A2liLYf0AVhjrqhN7eBf',
+      spotifyEpisodeId: '15hW0wdlebVKSaCZEPQonB',
+      contribution: "Produced as part of the Nature Links Climate Action project",
     },
     {
       id: 'gentle-activism',
