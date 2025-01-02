@@ -243,6 +243,10 @@ export const PODCASTS = {
 export const AWARDS = [
   { body: 'Pineapple Awards 2023', award: 'Best New Producer' },
   {
+    body: 'The Lovie Awards 2024',
+    award: 'GOLD Best Branded Podcast',
+  },
+  {
     body: 'Audio Production Awards 2023',
     award: 'SILVER Grassroots Production Award',
   },
