@@ -20,6 +20,7 @@ import pod_life_more_wild from '@images/pod_life_more_wild.jpeg'
 import pod_mind_the_gap from '@images/pod_mind_the_gap.webp'
 import pod_ouse from '@images/pod_ouse.jpeg'
 import pod_shrink_the_box from '@images/pod_shrink_the_box.jpg'
+import pod_sing_it_pink from '@images/pod_sing_it_pink.jpeg'
 import pod_three_body from '@images/pod_three_body.webp'
 import pod_table_manners from '@images/pod_table_manners.png'
 import pod_tell_dem from '@images/pod_tell_dem.png'
@@ -193,6 +194,16 @@ export const PODCASTS = {
     },
   ],
   'assistant producer': [
+    {
+      id: 'sing-it-pink',
+      title: 'Sing It Pink',
+      description: `The story of the Pink Singers, London and Europe's oldest LGBTQ+ choir, told through the people who sang for freedom. With archive recordings of pivotal rehearsals, touching stories from choir members from over 40 years, and intimate sound design, Sing It Pink! is a landmark documentary series and a piece of essential queer history.`,
+      image: pod_sing_it_pink,
+      link: 'https://shows.acast.com/sing-it-pink',
+      spotifyEpisodeId: '4k0Rt2xtCB9rWpCgqTW1Qp',
+      contribution:
+        'Series Assistant Producer. Writer, producer and sound designer for episode 7.',
+    },
     {
       id: 'the-quilt',
       title: 'The Quilt',
