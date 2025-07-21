@@ -1,6 +1,6 @@
 import { NavBar } from './NavBar'
 import './globals.css'
-import { Libre_Baskerville, Source_Sans_Pro } from '@next/font/google'
+import { Libre_Baskerville, Source_Sans_3 } from 'next/font/google'
 
 const headerFont = Libre_Baskerville({
   weight: '400',
@@ -8,7 +8,7 @@ const headerFont = Libre_Baskerville({
   variable: '--header-font',
 })
 
-const bodyFont = Source_Sans_Pro({
+const bodyFont = Source_Sans_3({
   weight: '400',
   subsets: ['latin'],
   variable: '--body-font',
