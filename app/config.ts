@@ -23,6 +23,8 @@ import pod_shrink_the_box from '@images/pod_shrink_the_box.jpg'
 import pod_three_body from '@images/pod_three_body.webp'
 import pod_table_manners from '@images/pod_table_manners.png'
 import pod_tell_dem from '@images/pod_tell_dem.png'
+import pod_wild_tales from '@images/pod_wild_tales.jpeg'
+import pod_the_quilt from '@images/pod_the_quilt.jpeg'
 import { StaticImageData } from 'next/image'
 
 export type ImageInfo = {
@@ -99,7 +101,6 @@ export const WORKED_WITH: ImageInfo[] = [
   },
 ]
 
-
 export type PodcastInfo = ImageInfo & {
   id: string
   description: string
@@ -110,34 +111,45 @@ export type PodcastInfo = ImageInfo & {
 export const PODCASTS = {
   producer: [
     {
+      id: 'wild-tales',
+      title: 'Wild Tales',
+      description: `Nature's got stories to tell. Are you listening?
+        Delve into intriguing stories from untangling the strange world of spider sex and digging up the greatest fossil finds, to meeting mysterious ocean giants and finding out why there's no such thing as a seagull. Join experts Rosie Holdsworth, Ajay Tegala and Heather Birkett on adventures in the UK's diverse habitats and uncover fascinating tales that connect us with wildlife.`,
+      image: pod_wild_tales,
+      link: 'https://podfollow.com/wild-tales/episode/06a14aaf1b83caaeb98a76138e2b1c2c5fe88d66/view',
+      spotifyEpisodeId: '5zR0J79qwBtHZqFAJcpeNm',
+      contribution:
+        'Led on production and development of this chart-topping nature podcast for the National Trust',
+    },
+    {
       id: 'dwelling',
       title: 'Dwelling',
-      description:
-        `Finding and fighting for feelings of home. 
+      description: `Finding and fighting for feelings of home. 
         As the housing crisis deepens, home is becoming increasingly difficult to find. Join host Marnie Woodmeade as we speak to the people seeking alternatives. From abandoned buildings to lost rivers, they redefine what a home can be. But as restrictions on alternative lifestyles tighten, how can they protect their sanctuaries, sites of resistance and dwelling?`,
       image: pod_dwelling,
       link: 'https://audioboom.com/channels/5099388-dwelling',
       spotifyEpisodeId: '0ucFdbHrLBm9l2TdtLrVDk',
       contribution: "Featured as one of The Guardian's Pick Of The Week",
-    },{
+    },
+    {
       id: 'mind-the-gap',
       title: 'Mind The Gap',
-      description:
-        `For 160 years the London Underground has been part of the fabric of life in the capital. Tim Dunn travels to Tube stations across London, along his way meeting guests including tv and radio presenter Rylan, writer, DJ and Night Czar Amy Lamé and designer Wayne Hemingway and hears stories of their passion and love for the world’s oldest underground network.`,
+      description: `For 160 years the London Underground has been part of the fabric of life in the capital. Tim Dunn travels to Tube stations across London, along his way meeting guests including tv and radio presenter Rylan, writer, DJ and Night Czar Amy Lamé and designer Wayne Hemingway and hears stories of their passion and love for the world’s oldest underground network.`,
       image: pod_mind_the_gap,
       link: 'https://podcasts.apple.com/gb/podcast/mind-the-gap-tube-160/id1721817495',
       spotifyEpisodeId: '58VhmlklhGmhchDaaQVdnI',
-      contribution: "Number 1 podcast in Places And Travel",
-    },{
+      contribution: 'Number 1 podcast in Places And Travel',
+    },
+    {
       id: 'advocating-for-nature',
       title: 'Advocating for Nature',
-      description:
-        `The Rights of Nature movement is a significant culture shift. In February 2023 Lewes District Council passed a ‘Rights of River Motion’ acknowledging the rights of nature as a way of improving river health - the first council in England to do so.
+      description: `The Rights of Nature movement is a significant culture shift. In February 2023 Lewes District Council passed a ‘Rights of River Motion’ acknowledging the rights of nature as a way of improving river health - the first council in England to do so.
         This podcast hears from many different voices about what this might mean in practice, where the ideas have come from and some of the challenges of giving nature the same protection enjoyed by people.`,
       image: pod_ouse,
       link: 'https://open.spotify.com/show/42A2liLYf0AVhjrqhN7eBf',
       spotifyEpisodeId: '15hW0wdlebVKSaCZEPQonB',
-      contribution: "Produced as part of the Nature Links Climate Action project",
+      contribution:
+        'Produced as part of the Nature Links Climate Action project',
     },
     {
       id: 'gentle-activism',
@@ -182,6 +194,16 @@ export const PODCASTS = {
   ],
   'assistant producer': [
     {
+      id: 'the-quilt',
+      title: 'The Quilt',
+      description: `A new queer history podcast featuring untold stories that are rooted all around the UK.
+        Hosts Tash Walker and Adam Zmith have partnered with Queer Britain, the UK's first LGBTQ+ museum, to travel around the UK collecting intriguing, moving, and deeply important stories from the queer family.`,
+      image: pod_the_quilt,
+      link: 'https://podfollow.com/the-quilt/view',
+      spotifyEpisodeId: '45kg0SDLBmCPKEVMBn5Yjl',
+      contribution: 'Assistant Producer',
+    },
+    {
       id: 'shrink-the-box',
       title: 'Shrink the Box',
       description:
@@ -199,7 +221,8 @@ export const PODCASTS = {
       image: pod_three_body,
       link: 'https://podcasts.apple.com/gb/podcast/3-body-podcast/id1733588331',
       spotifyEpisodeId: '42XaJPSxvSd7Lvq5sUN8QA',
-      contribution: 'Assistant Producer. For this episode I scripted, wrote guest questions and edited.',
+      contribution:
+        'Assistant Producer. For this episode I scripted, wrote guest questions and edited.',
     },
   ],
   'sound engineer': [
@@ -237,8 +260,7 @@ export const PODCASTS = {
     },
   ],
   // eslint-disable-next-line prettier/prettier
-} satisfies Record<string, PodcastInfo[]>;
-
+} satisfies Record<string, PodcastInfo[]>
 
 export const AWARDS = [
   { body: 'Pineapple Awards 2023', award: 'Best New Producer' },
