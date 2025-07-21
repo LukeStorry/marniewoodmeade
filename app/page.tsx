@@ -70,12 +70,12 @@ export default function Home() {
           Marnie <br /> Woodmeade
         </h1>
         <p className="max-w-[80%] text-center text-sm leading-4  md:text-lg lg:text-xl">
-          AUDIO PRODUCER - WRITER - CAMPAIGNER
+          AUDIO PRODUCER - WRITER - FIELD RECORDER
         </p>
         <ImageBar src={marnie_lean_2} imageClass="-mt-[8%]" />
         <ImageBar src={marnie_lean_3} imageClass="-mt-[11%]" />
         <p className=" max-w-[80%]  text-center text-sm max-sm:leading-4 lg:text-xl">
-          Stories of social movements and extraordinary people
+          Where nature meets narrative
         </p>
       </section>
 

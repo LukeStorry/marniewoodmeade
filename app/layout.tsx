@@ -24,7 +24,7 @@ export default function RootLayout({
       lang="en"
       className={`min-w-[350px] text-lg ${headerFont.variable} ${bodyFont.variable}`}
     >
-      <body className="mx-auto bg-[#f1f1e6] text-[#914327]">
+      <body className="mx-auto bg-[#f7f5f0] text-[#2d3a1f]">
         <NavBar />
         {children}
       </body>
