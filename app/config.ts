@@ -278,10 +278,22 @@ export const AWARDS = [
   { body: 'The Webbies 2025', award: 'Runner-up Best Branded Podcast' },
   { body: 'The Lovie Awards 2024', award: 'GOLD Best Branded Podcast' },
   { body: 'Pineapple Awards 2023', award: 'Best New Producer' },
-  { body: 'Audio Production Awards 2023', award: 'SILVER Grassroots Production Award' },
-  { body: 'Independent Podcast Awards 2023', award: 'Shortlisted for Best Educational Podcast' },
-  { body: 'International Women’s Podcast Awards 2023', award: 'Shortlisted for Changing the World One Moment at a Time' },
+  {
+    body: 'Audio Production Awards 2023',
+    award: 'SILVER Grassroots Production Award',
+  },
+  {
+    body: 'Independent Podcast Awards 2023',
+    award: 'Shortlisted for Best Educational Podcast',
+  },
+  {
+    body: 'International Women’s Podcast Awards 2023',
+    award: 'Shortlisted for Changing the World One Moment at a Time',
+  },
   { body: 'Community Radio Awards 2022', award: 'SILVER Best Podcast' },
-  { body: 'Women’s History Network 2022', award: 'Best Community History Project' },
+  {
+    body: 'Women’s History Network 2022',
+    award: 'Best Community History Project',
+  },
   { body: 'PodBible Listener Polls 2023', award: 'WINNER Film & TV, Comedy' },
 ]

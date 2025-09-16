@@ -4,26 +4,22 @@ import marnie_lean_2 from '@images/marnie_lean_2.jpg'
 import marnie_lean_3 from '@images/marnie_lean_3.jpg'
 import marnie_listening from '@images/marnie_listening.jpg'
 import Image, { StaticImageData } from 'next/image'
-import { FC } from 'react'
 
-const ImageBar = (p: { imageClass: string; src: StaticImageData }) => (
-  <div className="relative aspect-[3/1] overflow-hidden">
-    <Image
-      src={p.src}
-      placeholder="blur"
-      priority
-      className={p.imageClass + ' object-cover'}
-      alt=""
-    />
-  </div>
-)
+function ImageBar(p: { imageClass: string; src: StaticImageData }) {
+  return (
+    <div className="relative aspect-[3/1] overflow-hidden">
+      <Image
+        src={p.src}
+        placeholder="blur"
+        priority
+        className={p.imageClass + ' object-cover'}
+        alt=""
+      />
+    </div>
+  )
+}
 
-const AnchorImage = ({
-  image,
-  title,
-  link,
-  ...rest
-}: ImageInfo | PodcastInfo) => {
+function AnchorImage({ image, title, link, ...rest }: ImageInfo | PodcastInfo) {
   const isPodcast = 'id' in rest
   return (
     <a
@@ -44,7 +40,7 @@ const AnchorImage = ({
   )
 }
 
-const InfiniteScroll: FC<{ children: JSX.Element[] }> = ({ children }) => {
+function InfiniteScroll({ children }: React.PropsWithChildren) {
   const innerMarquee = 'flex items-center gap-5 pl-8 '
   return (
     <div className="pause-on-hover relative flex overflow-x-scroll transition-all motion-safe:overflow-x-hidden">
