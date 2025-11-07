@@ -274,6 +274,14 @@ export const PODCASTS = {
 } satisfies Record<string, PodcastInfo[]>
 
 export const AWARDS = [
+  {
+    body: 'Audio Production Awards 2025',
+    award: 'Nominated for Changemaker Award',
+  },
+  {
+    body: 'Audio Production Awards 2025',
+    award: 'Nominated for Best Branded Producer',
+  },
   { body: 'ARIAS 2025', award: 'Shortlisted for the Social Impact Award' },
   { body: 'The Webbies 2025', award: 'Runner-up Best Branded Podcast' },
   { body: 'The Lovie Awards 2024', award: 'GOLD Best Branded Podcast' },
